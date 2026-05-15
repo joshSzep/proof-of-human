@@ -1,176 +1,421 @@
-# Outline
+# Chapter Outline
 
-This is the canon plot architecture for **Proof of Human**. The story is intimate institutional suspense with literary horror. It begins in Boston/Cambridge, moves through arbitration, CommonProof systems, family grief, and a private recovery facility, then culminates in Geneva.
+This is the canon 21-chapter working outline for **Proof of Human**. It translates the high-level story architecture into chapter beats while preserving room for scene-level invention.
 
-## Logline
+The structure is intimate institutional suspense:
 
-Former CommonProof safety architect Nathan Keene sees a missing former teammate, Claire Anik, appear in a certified liveness demo using their private phrase as an SOS. As Nathan and his estranged sister Tessa discover that Claire's liveness status is being used to keep her legally unreachable, they must expose a proof system that can verify a human source while concealing whether that human is free.
+- Chapters 1-6: Boston/Cambridge, synthetic fog, Claire's SOS, and the liveness cage.
+- Chapters 7-14: Active investigation, CommonProof pressure, the facility, and Claire's counter-record.
+- Chapters 15-19: Geneva review and the liveness/agency break.
+- Chapters 20-21: Aftermath, Claire's unverified agency, and Nathan/Tessa repair.
 
-## Act I: Synthetic Fog
+## Chapter 1: Insufficiently False
 
-### Opening
+**Primary setting:** Carver Institute for Civic Evidence / CommonProof standards event, Cambridge.
 
-Nathan Keene gives a polished talk at the Carver Institute for Civic Evidence or a nearby CommonProof standards event. He speaks about humane verification, democratic evidence, and the need for proof systems that preserve trust without destroying freedom.
+**Purpose:** Introduce Nathan Keene, the public language of humane verification, and the first breach in his carefully managed life.
 
-CommonProof presents a demonstration of liveness attestation. In the demo material, Nathan sees Claire Anik.
+**Beats:**
 
-Claire was his former teammate, CommonProof's Refusal Integrity lead, and the woman he loved without saying so. She has been missing from his life for years.
+- Nathan gives a polished talk about democratic evidence, synthetic fog, privacy, and the need for proof systems that do not become coercive.
+- The event includes a CommonProof demonstration of liveness attestation.
+- The room is full of institutional confidence: standards people, legal observers, academics, funders, proof vendors.
+- A certified sample appears with Claire Anik in it.
+- Nathan first tries to categorize what he is seeing: archive, reconstruction, coincidence, model artifact.
+- Claire says, inside the sample, "Insufficiently false."
+- The room applauds the demo. No one else reacts.
 
-In the sample, Claire says:
+**Emotional turn:** Nathan understands that Claire is alive and that only he heard the line as distress.
 
-> Insufficiently false.
+**End hook:** Nathan leaves the room with the public applause still going, unable to decide whether he has seen proof or a ghost.
 
-No one else reacts. The room applauds. Nathan understands it as an SOS.
+## Chapter 2: The Version That Protects People
 
-### Nathan's First Moves
+**Primary setting:** Nathan's Cambridge apartment; Carver office; old CommonProof materials.
 
-Nathan replays the sample obsessively and tries to rationalize what he saw. He checks old team notes, archived standards language, and public records. He contacts old CommonProof channels and receives only polite friction.
+**Purpose:** Establish Nathan's history with Claire and his first attempt to rationalize the SOS.
 
-He remembers fragments of Claire's resignation:
+**Beats:**
 
-> You know what this becomes.
+- Nathan replays the public demo through official channels and finds the clip either edited, inaccessible, or replaced with a cleaner version.
+- He searches old team notes for "insufficiently false."
+- The phrase opens memory fragments of Claire's resignation.
+- First partial flashback: Claire says, "You know what this becomes."
+- Nathan remembers answering, "There is still a version of this that protects people."
+- He checks public records for Claire and finds little: consulting work, standards comments, then absence.
+- He tries one old CommonProof contact route and gets a polite response that says nothing.
 
-And his answer:
+**Emotional turn:** Nathan realizes his old professional language is not helping him understand what happened to Claire. It is helping him avoid it.
 
-> There is still a version of this that protects people.
+**End hook:** He sees a reference to Claire's liveness status in a CommonProof-adjacent public registry, but the record is locked behind claimant authority.
 
-### Tessa's Entrance
+## Chapter 3: Claim Language
 
-Nathan contacts his estranged sister Tessa Keene under the pretense of needing help parsing arbitration language. Their conversation reopens the wound around Marian Keene's grief archive and the generated sentence "You did enough."
+**Primary setting:** Tessa's Jamaica Plain apartment; her arbitration work.
 
-Tessa is drafting language in a case brought by Victor Anik, Claire's father. Victor is trying to have Claire legally recognized as missing or endangered, but the claim is blocked because CommonProof records show Claire as liveness active.
+**Purpose:** Bring in Tessa, the sibling wound, and the administrative version of Claire's disappearance.
 
-### Act I Turn
+**Beats:**
 
-Nathan and Tessa realize their evidence points to the same impossible condition:
+- Tessa works late on an arbitration draft involving Victor Anik's petition.
+- The claim is blocked because Claire Anik is listed as liveness active.
+- Tessa's narration through the file shows how proof systems deny ordinary human urgency.
+- Nathan calls under the pretense of needing help parsing arbitration language.
+- Their old bitterness surfaces immediately, especially around Marian's archive and "You did enough."
+- Tessa realizes Nathan is asking about Claire Anik, the woman in her case file.
 
-- Nathan has seen Claire alive in CommonProof liveness material.
-- Tessa has seen Claire's liveness active status used to block Victor's petition.
-- CommonProof's proof of Claire's life is preventing action to protect her.
+**Emotional turn:** Nathan and Tessa's estrangement becomes unavoidable, but so does their need for each other.
 
-The turn:
+**End hook:** Tessa tells Nathan that Claire is not legally missing in the file because CommonProof keeps proving she is alive.
 
-> Claire is alive, and proof is functioning as a cage.
+## Chapter 4: Liveness Active
 
-## Act II: The Liveness Cage
+**Primary setting:** Tessa's office / neutral meeting space; Victor Anik's documents.
 
-### Active Investigation
+**Purpose:** Introduce Victor Anik and establish the cage: proof of life prevents rescue.
 
-Nathan and Tessa begin breaking soft rules. Their action is institutional trespass, process exploitation, confrontation, and legal pressure rather than conventional thriller violence.
+**Beats:**
 
-They:
+- Nathan and Tessa review the claim language in detail.
+- "Liveness active" is defined as recent certified human-origin capture tied to Claire's biometrics.
+- The status defeats Victor's attempt to classify Claire as missing or endangered.
+- Nathan realizes the system is proving origin, not condition.
+- They meet Victor Anik, a retired public defender and Claire's father.
+- Victor recognizes Nathan's name from Claire's past and understands Nathan mattered to her.
+- Victor is severe, controlled, and furious at being blocked by proof.
 
-- Attend a closed CommonProof demonstration or standards workshop.
-- Spot Claire again in refreshed liveness material, not archived footage.
-- Use Nathan's old standards knowledge to request a provenance packet he should not be able to access.
-- Use Tessa's arbitration expertise to parse billing codes, transport timing, consent witness IDs, and facility language.
-- Meet Victor Anik, who brings both grief and legal pressure.
-- Confront Leah Morin, CommonProof's Head of Consent Integrity.
+**Emotional turn:** Nathan sees Claire as a daughter, not only his unresolved past.
 
-### First Set Piece: Closed Demonstration
+**End hook:** Victor produces a notice indicating that Claire's liveness record was refreshed after Nathan saw the demo.
 
-Nathan and Tessa attend a CommonProof demo or standards workshop. Claire appears in a liveness sample. Tessa asks a devastating arbitration-style question about whether the record proves activity or agency.
+## Chapter 5: The Consent State
 
-Leah Morin intervenes. She is calm, precise, and reasonable. She tells Nathan that Claire's privacy and autonomy are protected by protocol, and that he of all people knows why CommonProof cannot break consent integrity.
+**Primary setting:** CommonProof's Cambridge office / consent review call.
 
-### Consequences
+**Purpose:** Introduce Leah Morin as procedural obstacle and mirror.
 
-CommonProof notices Nathan's improper access or procedural pressure. The Carver Institute receives a complaint. Nathan is suspended from a standards committee or warned by institute leadership. Leah tells him that forcing exceptions may endanger Claire.
+**Beats:**
 
-The consequences are real and administrative. Nathan risks career, credibility, and legal exposure.
+- Nathan requests access through a former professional channel.
+- Leah Morin responds, then agrees to a limited meeting or call.
+- Leah is precise, overworked, and careful with scope.
+- She tells Nathan that Claire's privacy and autonomy are protected by protocol.
+- She refuses to characterize Claire's condition beyond the current consent state.
+- Nathan pushes. Leah reminds him that he helped build the system that prevents exceptions based on feelings.
+- Leah hints, unintentionally or deliberately, that forcing access could harm Claire.
 
-### The Facility
+**Emotional turn:** Nathan experiences the system from the outside and hates how persuasive it sounds.
 
-Nathan and Tessa infer the location of a private recovery and identity-protection facility outside Boston through mundane fragments in the provenance packet and arbitration materials.
+**End hook:** Leah says one phrase that tells Nathan the sample was not old archive footage: "current protected-party handling."
 
-The facility appears humane: gardens, privacy language, trauma-informed staff, controlled contact, witness protection, CommonProof capture rooms behind calm doors.
+## Chapter 6: The Cage Has A Label
 
-Nathan gets close enough to understand that Claire is not simply imprisoned in the ordinary sense. Her legal status, medical access, credibility, and ability to leave are tangled with CommonProof's liveness and consent systems.
+**Primary setting:** Nathan's apartment; Tessa's arbitration office; Marian archive account.
 
-Claire communicates through constrained proof artifacts. Her message is not "save me" in simple terms. It is closer to:
+**Purpose:** End Act I by uniting the personal, procedural, and emotional stakes.
 
-> If you extract me, they win.
+**Beats:**
 
-### Midpoint Revelation
+- Nathan and Tessa compare the demo timestamp, the liveness refresh, and Victor's denial.
+- Tessa identifies the administrative move: Claire's activity is being used to deny her agency.
+- Nathan nearly opens Marian's archive and sees the "You did enough" record waiting.
+- Tessa confronts him about needing proof when it comforts him and distrusting it when it traps Claire.
+- Nathan admits Claire used a private phrase from the old team.
+- Tessa decides to help him, not because she forgives him, but because she knows what denial language looks like.
 
-Claire has been building a counter-record from inside the system. She is documenting how CommonProof uses consent and liveness to erase coercion. Her aim is not to expose every horror. It is to create a narrow legal contradiction that can free people trapped by liveness active status.
+**Emotional turn:** The siblings become reluctant collaborators.
 
-Nathan realizes what his old work made possible:
+**End hook:** They find a closed CommonProof demonstration where Claire's liveness samples may be refreshed again.
 
-> CommonProof can prove origin. It cannot prove freedom.
+## Chapter 7: Closed Demonstration
 
-### Leah's Pressure
+**Primary setting:** CommonProof demo theater / standards workshop.
 
-Leah remains an obstacle but shows strain. She knows the limitation. She tells herself that staying inside CommonProof is responsible. She believes exits are a luxury. She also knows that consent language is being used to block rescue.
+**Purpose:** First active set piece; put Nathan and Tessa inside the machinery.
 
-### Act II Turn
+**Beats:**
 
-Victor forces Claire's case into Geneva review under the Geneva Authenticity Convention. CommonProof agrees because it believes the process will validate its standard and contain the dispute.
+- Nathan uses his Carver role to get into the workshop; Tessa enters as an arbitration observer or guest.
+- CommonProof demonstrates protected-party liveness and consent-integrity workflows.
+- Claire appears again in a refreshed sample.
+- Nathan watches for another verbal SOS; Tessa watches the labels and exclusions.
+- Tessa asks whether the record establishes agency or only activity.
+- The room tightens. Leah intervenes smoothly.
+- Julian Saye is either present remotely or referenced as the author of the civic vision behind the demo.
 
-Nathan, Tessa, Victor, Leah, and Julian Saye are drawn toward Geneva. Claire will appear through a live-certified channel.
+**Emotional turn:** Tessa proves she can see what Nathan misses.
 
-The question becomes:
+**End hook:** Nathan glimpses a provenance packet identifier before the display is closed.
 
-> Can the most verified signal in the world also be a cage?
+## Chapter 8: Deprecated Authority
 
-## Act III: Geneva
+**Primary setting:** Nathan's office; old standards portal; late-night Cambridge.
 
-### Geneva Arrival
+**Purpose:** Nathan breaks soft rules and pays the first price.
 
-Geneva is calm, wealthy, procedural, and humanitarian. The setting should feel like dignity made into architecture: treaty rooms, lake light, translation headsets, security glass, old institutional authority.
+**Beats:**
 
-Victor arrives as a father and retired public defender. Nathan arrives as a former architect of the flawed system. Tessa arrives with arbitration language that can make the contradiction plain. Leah arrives to contain damage. Julian appears as CommonProof's composed public conscience.
+- Nathan uses an old standards reviewer credential, deprecated audit portal, or procedural loophole to request the provenance packet.
+- He is not hacking; he is exploiting trust the system forgot to revoke.
+- The packet contains partial metadata: consent witness IDs, transport timing, capture location redactions, facility language, billing codes.
+- Nathan sees an internal limitation field marked but not displayed.
+- He downloads or records enough to share with Tessa.
+- CommonProof logs the access.
 
-Claire appears by live-certified channel. The channel itself remains suspect because certification cannot establish freedom.
+**Emotional turn:** Nathan crosses from concern into actionable misconduct.
 
-### The Proposed Protocol
+**End hook:** A warning appears from Carver or CommonProof: his access has been flagged.
 
-The Geneva panel, CommonProof, and even Victor initially need Claire to submit to an invasive condition-verification protocol. It would prove coercion beyond dispute, but it would also turn her condition into a new category of certified suffering.
+## Chapter 9: Confidence Degradation
 
-Claire refuses.
+**Primary setting:** Carver Institute; Nathan's meeting with leadership; Leah follow-up.
 
-Her refusal is not denial. It is agency.
+**Purpose:** Show real consequences and introduce the phrase that hides the central flaw.
 
-### Nathan's Climax
+**Beats:**
 
-Nathan admits that liveness attestation was never designed to prove consent, agency, or freedom of movement. He helped create and defend the separation between origin and condition.
+- Carver leadership warns Nathan that CommonProof has filed a complaint.
+- Nathan is suspended from a standards committee or removed from an upcoming panel.
+- He realizes his respectable post-CommonProof life is more fragile than he admitted.
+- Leah contacts him, angry but controlled.
+- She says he may be endangering Claire by forcing protocol exceptions.
+- Nathan presses the hidden limitation field.
+- Leah does not answer directly, but "confidence degradation" enters the story as the reason limitations are suppressed.
 
-More importantly, he supports Claire's refusal even though it leaves some things unproven. He stops trying to make Claire's truth absolve him.
+**Emotional turn:** Nathan understands that truth inside the system is managed according to public confidence, not moral urgency.
 
-### Tessa's Climax
+**End hook:** Tessa identifies a facility phrase in the packet from her arbitration templates.
 
-Tessa gives the plain-language finding:
+## Chapter 10: The Facility Outside The City
 
-> The record proves activity. It does not prove agency.
+**Primary setting:** Roads outside Boston; private recovery and identity-protection facility.
 
-Her sentence cuts through standards language, arbitration language, and CommonProof's confidence layer.
+**Purpose:** Move from records to physical proximity; reveal the humane surface of captivity.
 
-### Victor's Climax
+**Beats:**
 
-Victor withdraws his demand for the invasive protocol. He begins the story needing proof to save his daughter. He ends by recognizing that his daughter does not have to become evidence for him.
+- Nathan and Tessa infer the facility location through billing codes, transport timing, consent witness ID patterns, and template language.
+- They drive out together, their sibling rhythm returning under stress.
+- The facility appears calm: gardens, privacy language, discreet security, trauma-informed signage.
+- Nathan tries an official inquiry and is blocked.
+- Tessa notices that the facility language mirrors insurance denial language: care as containment.
+- They see evidence that CommonProof capture rooms operate inside or alongside the facility.
 
-### Leah's Partial Turn
+**Emotional turn:** The horror becomes physical without becoming lurid.
 
-Leah allows one internal limitation to surface: liveness attestation does not establish agency, consent, or freedom of movement. CommonProof hid or minimized that limitation because making it visible would create confidence degradation.
+**End hook:** Nathan receives or sees a constrained signal from Claire indicating she knows he is nearby.
 
-Leah is later scapegoated as an isolated protocol failure.
+## Chapter 11: Do Not Make Me Useful
 
-### Julian's Response
+**Primary setting:** Facility-adjacent controlled channel / intercepted proof artifact.
 
-Julian does not collapse or confess like a villain. He accepts the language of reform and absorbs the damage. He argues that every proof system has a boundary and civilization depends on living as if some boundaries are enough.
+**Purpose:** Let Claire's agency emerge and complicate rescue.
 
-CommonProof survives. Julian adapts.
+**Beats:**
 
-### Outcome
+- Claire communicates through a constrained proof artifact, controlled channel, or consent-language anomaly.
+- She makes clear that simple extraction would let CommonProof win.
+- Nathan initially resists this because he wants a rescue shape he can understand.
+- Claire's message: do not turn me into the exception that saves them.
+- She reveals, indirectly, that she has been building a counter-record from inside.
+- Nathan realizes Claire is not waiting passively for him.
 
-Geneva issues a narrow finding that damages the liveness-consent assumption. Claire gains legal room to leave the administrative cage. The world remains damaged.
+**Emotional turn:** Nathan's goal shifts from getting Claire out to helping Claire preserve agency.
 
-## Resolution
+**End hook:** Claire points them toward the protocol assumption she needs broken: liveness does not establish freedom.
 
-Claire does not become Nathan's closure. She chooses distance and unrecorded agency.
+## Chapter 12: Refusal Integrity
 
-Weeks later, Victor receives a physical object from Trieste: a blank card tucked around a ticket from a small museum or archive Claire once wanted to visit. It is unsigned, unverified, and not certifiable. Victor, Nathan, and Tessa choose to treat it as enough.
+**Primary setting:** Old CommonProof memory; Nathan and Tessa working through the counter-record; Marian's course notes.
 
-Nathan and Tessa return to Marian Keene's archive wound. They agree to seal, not destroy, the generated "You did enough" record. Tessa admits she listened once too.
+**Purpose:** Connect Claire's original warning to the present flaw.
 
-The final image is Nathan and Tessa in Marian's old classroom, remembering the same woman differently and letting the difference stand.
+**Beats:**
+
+- Fuller flashback to Claire's CommonProof resignation.
+- Claire warns that refusal categories will become demand categories.
+- Nathan answers with the line about a version that protects people.
+- In the present, Nathan maps Claire's counter-record to the old taxonomy and realizes "insufficiently false" corresponds to a category of technically valid but morally inadequate outputs.
+- Tessa reads Marian's old oral-history notes and finds language about transcripts, cost, and witness.
+- The family and CommonProof threads begin to rhyme explicitly.
+
+**Emotional turn:** Nathan understands Claire was not asking him to predict the future. She was asking him to choose.
+
+**End hook:** The counter-record can only matter if it enters a recognized review process.
+
+## Chapter 13: Victor's Motion
+
+**Primary setting:** Victor's home or legal workspace; arbitration firm; treaty filing channel.
+
+**Purpose:** Move the case from local obstruction to Geneva review.
+
+**Beats:**
+
+- Victor uses his legal knowledge to craft a petition under the Geneva Authenticity Convention.
+- Tessa helps translate arbitration contradiction into treaty language without crossing lines that would destroy her job.
+- Nathan supplies technical context while trying not to overtake the case.
+- Victor struggles with the fact that a Geneva review may require Claire to provide more proof.
+- The filing frames the issue narrowly: liveness active cannot defeat endangered status without condition assessment.
+- CommonProof accepts or does not block review because it believes Geneva will validate its standard.
+
+**Emotional turn:** Victor chooses procedure because it is the only weapon left, even though procedure may hurt Claire.
+
+**End hook:** Geneva schedules a review. Claire will appear by live-certified channel.
+
+## Chapter 14: Leah's Limitation
+
+**Primary setting:** CommonProof office / private meeting / transit before Geneva.
+
+**Purpose:** Leah partially turns and pays the moral price in advance.
+
+**Beats:**
+
+- Nathan confronts Leah one more time before Geneva.
+- Leah insists she cannot release private records or characterize Claire's condition.
+- Nathan asks about the limitation field and confidence degradation.
+- Leah gives him or allows him to see the narrow internal language: liveness attestation does not establish agency, consent, or freedom of movement.
+- She makes clear that displaying this limitation broadly would damage trust in the layer.
+- Leah warns that she will not survive being the source if he uses it crudely.
+
+**Emotional turn:** Leah's loyalty fails in one controlled, costly place.
+
+**End hook:** Nathan leaves for Geneva with a truth that can hurt CommonProof but may not save Claire.
+
+## Chapter 15: Geneva Intake
+
+**Primary setting:** Geneva; review chamber intake; hotel/temporary legal workspace.
+
+**Purpose:** Shift geography and moral atmosphere.
+
+**Beats:**
+
+- Nathan, Tessa, and Victor arrive in Geneva.
+- The city feels calm, wealthy, humanitarian, and procedural.
+- Treaty staff are courteous and careful.
+- Claire's case is translated into Geneva categories: protected source, liveness status, condition verification, compelled disclosure.
+- Tessa feels the violence of elegant procedure.
+- Victor prepares like a lawyer and a father, not knowing which role will hurt Claire more.
+- CommonProof's team arrives with Leah and Julian's presence looming.
+
+**Emotional turn:** The characters enter the one place supposedly neutral enough to decide reality, and it feels no less dangerous.
+
+**End hook:** The review notice confirms Claire will not be physically present. She will appear through a live-certified channel.
+
+## Chapter 16: The Channel
+
+**Primary setting:** Geneva review chamber.
+
+**Purpose:** Make the final paradox visible: the most verified signal may be the cage.
+
+**Beats:**
+
+- The chamber opens with formal dignity.
+- Julian appears as CommonProof's calm public conscience.
+- Leah presents or supports the consent-integrity record.
+- Claire appears through the live-certified channel.
+- The room treats the channel as a solution.
+- Nathan, Tessa, and Victor experience it as a threat.
+- Claire is lucid, controlled, and careful. She cannot speak freely without her words becoming proof product.
+
+**Emotional turn:** Claire's presence is both relief and violation.
+
+**End hook:** Geneva proposes or invites a condition-verification protocol that would settle the question of coercion.
+
+## Chapter 17: Condition Verification
+
+**Primary setting:** Geneva review chamber; side consultation rooms.
+
+**Purpose:** Force the central moral demand into the open.
+
+**Beats:**
+
+- The proposed protocol would prove coercion or freedom more definitively.
+- It is invasive, intimate, and likely to create a new class of certified suffering.
+- Victor initially wants it because it might save Claire.
+- Julian argues that hard cases require hard proof.
+- Nathan sees how seductive total proof remains.
+- Claire refuses.
+- Her refusal is framed by CommonProof as noncooperation or ambiguity risk.
+
+**Emotional turn:** Claire asserts agency by refusing the very proof that would make her more believable.
+
+**End hook:** If Claire refuses the protocol, Geneva may treat the record as insufficient unless Nathan and Tessa can break the liveness assumption another way.
+
+## Chapter 18: Activity Is Not Agency
+
+**Primary setting:** Geneva review chamber.
+
+**Purpose:** Nathan, Tessa, Victor, and Leah each make their climactic move.
+
+**Beats:**
+
+- Nathan testifies that liveness attestation was never designed to prove consent, agency, or freedom of movement.
+- He admits he helped build and defend the separation between origin and condition.
+- Leah's internal limitation surfaces.
+- CommonProof argues the limitation is known, bounded, and not material to Claire's status.
+- Tessa cuts through the language: "The record proves activity. It does not prove agency."
+- Victor withdraws support for compelling Claire's condition verification.
+- Claire's refusal is no longer treated as empty noncooperation; it becomes part of the agency question.
+
+**Emotional turn:** Nathan supports Claire's refusal even though it leaves him without absolution.
+
+**End hook:** Geneva suspends the assumption that liveness active can defeat endangered or protected-source review on its own.
+
+## Chapter 19: The Narrow Finding
+
+**Primary setting:** Geneva; review aftermath; CommonProof response.
+
+**Purpose:** Resolve the institutional conflict without pretending the world is fixed.
+
+**Beats:**
+
+- Geneva issues a narrow provisional finding: human-origin liveness cannot be construed, by itself, as evidence of agency or freedom of movement.
+- Claire gains legal room to leave the administrative cage or suspend the liveness-active constraint.
+- Julian absorbs the result with reform language.
+- CommonProof survives and begins adapting.
+- Leah is isolated as the protocol failure or insufficient disclosure point.
+- Nathan sees that the system can lose a point and still keep its shape.
+
+**Emotional turn:** The victory is real, limited, and morally expensive.
+
+**End hook:** Claire does not contact Nathan. Her absence becomes part of her freedom.
+
+## Chapter 20: Trieste
+
+**Primary setting:** Boston/Cambridge after Geneva; Victor's home or meeting place.
+
+**Purpose:** Give evidence of Claire's agency without restoring certainty or romantic closure.
+
+**Beats:**
+
+- Weeks pass. Nathan returns to altered but still intact institutional life.
+- Victor receives a physical object: a blank card tucked around a ticket from a small museum or archive in Trieste.
+- The object is unsigned, unverified, and not certifiable.
+- Trieste was a place Claire once wanted to visit, associated with records surviving empires but never explaining people.
+- Victor lets Nathan and Tessa see it.
+- No one tries to authenticate it.
+
+**Emotional turn:** They choose to treat the object as enough.
+
+**End hook:** Nathan realizes that not searching for Claire may be the first honest act of care he has offered her.
+
+## Chapter 21: The Classroom
+
+**Primary setting:** Marian Keene's old classroom.
+
+**Purpose:** Resolve the sibling arc and embody the moral endpoint.
+
+**Beats:**
+
+- Nathan and Tessa return to Marian's archive wound.
+- They agree to seal, not destroy, the generated "You did enough" record.
+- Tessa admits she listened once too.
+- Nathan does not use that admission to absolve himself.
+- They visit Marian's old classroom.
+- Marian's oral-history notes or classroom materials remind them that records are arguments with the past, not replacements for people.
+- Nathan and Tessa remember the same woman differently.
+- No device settles the difference.
+
+**Emotional turn:** The completed arc is not certainty but restored trust with boundaries.
+
+**Final image:** Nathan and Tessa sit in the classroom with unverifiable memory between them, and for once they let it stand.

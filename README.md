@@ -46,7 +46,8 @@ Avoid generic cyberpunk aesthetics. This world should feel like the present exte
 - [GEOPOLITICS.md](notes/GEOPOLITICS.md): International systems, treaties, conflict, elections, war, and intelligence.
 - [TERMINOLOGY.md](notes/TERMINOLOGY.md): Glossary of in-world language.
 - [CHARACTERS.md](notes/CHARACTERS.md): Canon cast, relationships, wounds, and arcs.
-- [OUTLINE.md](notes/OUTLINE.md): Canon plot architecture from Boston/Cambridge to Geneva.
+- [STORY_ARCHITECTURE.md](notes/STORY_ARCHITECTURE.md): High-level canon plot architecture from Boston/Cambridge to Geneva.
+- [OUTLINE.md](notes/OUTLINE.md): Chapter-by-chapter working outline across 21 chapters.
 - [SCENES.md](notes/SCENES.md): High-value scene bank.
 - [VOICE.md](notes/VOICE.md): Style, narration, point of view, and prose principles.
 - [VOICES.md](notes/VOICES.md): Character speech, diction, rhythm, and institutional registers.
