@@ -1,182 +1,176 @@
 # Outline
 
-This document holds several possible architectures. The project should not lock too early. The strongest final novel may combine the moral intimacy of the literary version with the momentum of the thriller version.
+This is the canon plot architecture for **Proof of Human**. The story is intimate institutional suspense with literary horror. It begins in Boston/Cambridge, moves through arbitration, CommonProof systems, family grief, and a private recovery facility, then culminates in Geneva.
 
-## Version A: Literary Institutional Horror
+## Logline
 
-### Core
+Former CommonProof safety architect Nathan Keene sees a missing former teammate, Claire Anik, appear in a certified liveness demo using their private phrase as an SOS. As Nathan and his estranged sister Tessa discover that Claire's liveness status is being used to keep her legally unreachable, they must expose a proof system that can verify a human source while concealing whether that human is free.
 
-A content moderator or proof analyst works inside a trust company or authentication lab. They review disputed media, assign categories, and escalate edge cases. Over time, recurring fragments suggest that the company's official certification systems are feeding a Proof of Human market.
+## Act I: Synthetic Fog
 
-### Central Mystery
+### Opening
 
-Why do fragments from unrelated cases share the same hidden provenance markers, and why do refusal-category labels predict market value outside the company?
+Nathan Keene gives a polished talk at the Carver Institute for Civic Evidence or a nearby CommonProof standards event. He speaks about humane verification, democratic evidence, and the need for proof systems that preserve trust without destroying freedom.
 
-### Act I: Synthetic Fog
+CommonProof presents a demonstration of liveness attestation. In the demo material, Nathan sees Claire Anik.
 
-- Establish daily life under proof culture.
-- The protagonist reviews ordinary disputes: fake scandals, grief archive conflicts, synthetic denial attacks, dating fraud, court evidence.
-- A piece of media arrives labeled **Proof of Human** in a context where the label should not exist.
-- The protagonist initially treats it as branding, malware, or black-market slang.
-- A person connected to the case reaches out, not to expose everything, but to stop being turned into proof.
+Claire was his former teammate, CommonProof's Refusal Integrity lead, and the woman he loved without saying so. She has been missing from his life for years.
 
-### Act II: Authenticity Market
+In the sample, Claire says:
 
-- The protagonist follows procedural clues through departments: consent review, harm provenance, legal hold, marketplace compliance, international escalation.
-- The company publicly condemns Proof markets while quietly selling tools that enable their laundering.
-- A grieving family, journalist, or court needs one of the disputed records authenticated.
-- The protagonist learns that legitimate demand and exploitative demand use the same infrastructure.
-- Their job becomes morally impossible: label content correctly and it gains market value; suppress it and denial wins.
+> Insufficiently false.
 
-### Act III: Refusal Map
+No one else reacts. The room applauds. Nathan understands it as an SOS.
 
-- The protagonist discovers that the leaked refusal taxonomy is being used as a price index.
-- A senior leader argues that imperfect proof systems are the only barrier against civilizational collapse.
-- The protagonist can expose the system, bury the truth, or protect specific people by destroying a narrow chain of certification.
-- Ending leans literary: the protagonist refuses to provide one final proof, choosing to preserve a person's unverifiable dignity.
+### Nathan's First Moves
 
-### Emotional Arc
+Nathan replays the sample obsessively and tries to rationalize what he saw. He checks old team notes, archived standards language, and public records. He contacts old CommonProof channels and receives only polite friction.
 
-From procedural numbness to moral attention. The protagonist learns that correct classification is not the same as care.
+He remembers fragments of Claire's resignation:
 
-### Ending Options
+> You know what this becomes.
 
-- Bittersweet: saves one source, breaks one pipeline, loses career and certainty.
-- Literary: refuses extraction even when proof would be useful.
-- Bleak: exposure increases demand; the label becomes famous.
+And his answer:
 
-## Version B: Investigative Thriller
+> There is still a version of this that protects people.
 
-### Core
+### Tessa's Entrance
 
-A journalist, missing-person investigator, or war crimes analyst discovers that authenticated human-origin media is being manufactured and laundered through legitimate proof systems.
+Nathan contacts his estranged sister Tessa Keene under the pretense of needing help parsing arbitration language. Their conversation reopens the wound around Marian Keene's grief archive and the generated sentence "You did enough."
 
-### Central Mystery
+Tessa is drafting language in a case brought by Victor Anik, Claire's father. Victor is trying to have Claire legally recognized as missing or endangered, but the claim is blocked because CommonProof records show Claire as liveness active.
 
-Who is producing high-value Proof of Human material, and how are they obtaining certification from respected institutions?
+### Act I Turn
 
-### Act I: Synthetic Fog
+Nathan and Tessa realize their evidence points to the same impossible condition:
 
-- A scandal breaks with multiple synthetic versions.
-- The protagonist is asked to authenticate footage tied to a missing person, war crime, or political event.
-- A verified clip contradicts official records but contains subtle signs of coercive capture.
-- The first lead points to a Red Market jurisdiction.
+- Nathan has seen Claire alive in CommonProof liveness material.
+- Tessa has seen Claire's liveness active status used to block Victor's petition.
+- CommonProof's proof of Claire's life is preventing action to protect her.
 
-### Act II: Authenticity Market
+The turn:
 
-- The protagonist follows brokers, labs, NGOs, trust companies, and state actors.
-- Every faction has a plausible reason to want proof: justice, denial, money, leverage, grief.
-- A witness is found alive but has become more valuable as evidence than as a person.
-- The protagonist realizes official systems and black markets are coupled through standards, not conspiracy.
+> Claire is alive, and proof is functioning as a cage.
 
-### Act III: Refusal Map
+## Act II: The Liveness Cage
 
-- The leaked Red List or refusal map reveals the economic logic.
-- A powerful trust founder or state actor plans to use a major authenticated event to establish global control over proof infrastructure.
-- The protagonist must choose between broadcasting proof and protecting the witness from becoming permanent evidence.
+### Active Investigation
 
-### Emotional Arc
+Nathan and Tessa begin breaking soft rules. Their action is institutional trespass, process exploitation, confrontation, and legal pressure rather than conventional thriller violence.
 
-From "truth must be exposed" to "truth must not require ownership of another person."
+They:
 
-### Ending Options
+- Attend a closed CommonProof demonstration or standards workshop.
+- Spot Claire again in refreshed liveness material, not archived footage.
+- Use Nathan's old standards knowledge to request a provenance packet he should not be able to access.
+- Use Tessa's arbitration expertise to parse billing codes, transport timing, consent witness IDs, and facility language.
+- Meet Victor Anik, who brings both grief and legal pressure.
+- Confront Leah Morin, CommonProof's Head of Consent Integrity.
 
-- Thriller-bittersweet: the protagonist stops a central transaction and saves the witness, but the market disperses.
-- Bleak: the investigation becomes premium content.
-- Moral: the protagonist publishes the system without publishing the person.
+### First Set Piece: Closed Demonstration
 
-## Version C: Hybrid Former Engineer Story
+Nathan and Tessa attend a CommonProof demo or standards workshop. Claire appears in a liveness sample. Tessa asks a devastating arbitration-style question about whether the record proves activity or agency.
 
-### Core
+Leah Morin intervenes. She is calm, precise, and reasonable. She tells Nathan that Claire's privacy and autonomy are protected by protocol, and that he of all people knows why CommonProof cannot break consent integrity.
 
-A former trust-and-safety engineer learns that the refusal taxonomy they helped create has leaked and now shapes the Proof of Human economy. Their investigation brings them into contact with a witness whose life has been priced by one of their categories.
+### Consequences
 
-### Central Mystery
+CommonProof notices Nathan's improper access or procedural pressure. The Carver Institute receives a complaint. Nathan is suspended from a standards committee or warned by institute leadership. Leah tells him that forcing exceptions may endanger Claire.
 
-How did a safety taxonomy become a global proof market index, and who is using it to certify human suffering?
+The consequences are real and administrative. Nathan risks career, credibility, and legal exposure.
 
-### Act I: Synthetic Fog
+### The Facility
 
-- The protagonist lives quietly after leaving a major AI or trust company.
-- They are pulled back by a former colleague, journalist, subpoena, or blackmail attempt.
-- A Proof of Human clip contains a category code from an internal refusal schema.
-- They deny the implication at first: the map was supposed to prevent harm.
+Nathan and Tessa infer the location of a private recovery and identity-protection facility outside Boston through mundane fragments in the provenance packet and arbitration materials.
 
-### Act II: Authenticity Market
+The facility appears humane: gardens, privacy language, trauma-informed staff, controlled contact, witness protection, CommonProof capture rooms behind calm doors.
 
-- They trace the taxonomy through leaked policy files, platform moderation tools, court standards, and underground marketplaces.
-- They meet people with legitimate proof needs: a mother, journalist, defendant, survivor, activist.
-- The antagonist argues that proof infrastructure is civilization's immune system.
-- The protagonist realizes that the leak is not the only problem. The taxonomy's logic was already being mirrored by markets.
+Nathan gets close enough to understand that Claire is not simply imprisoned in the ordinary sense. Her legal status, medical access, credibility, and ability to leave are tangled with CommonProof's liveness and consent systems.
 
-### Act III: Refusal Map
+Claire communicates through constrained proof artifacts. Her message is not "save me" in simple terms. It is closer to:
 
-- The protagonist must testify, leak documents, sabotage a protocol launch, or refuse to authenticate a final piece of evidence.
-- A witness or loved one becomes central to the decision.
-- The ending should resist a clean system fix. The real transformation is ethical: the protagonist stops treating harm as categories and starts treating uncertainty as part of human trust.
+> If you extract me, they win.
 
-### Emotional Arc
+### Midpoint Revelation
 
-From guilt to responsibility. Not "I caused this alone," but "I understand how my good intentions entered a harmful system, and I can choose differently now."
+Claire has been building a counter-record from inside the system. She is documenting how CommonProof uses consent and liveness to erase coercion. Her aim is not to expose every horror. It is to create a narrow legal contradiction that can free people trapped by liveness active status.
 
-### Ending Options
+Nathan realizes what his old work made possible:
 
-- Bittersweet: expose the refusal map while protecting identities, weakening one market without restoring trust.
-- Literary: choose a loved one's privacy over public vindication.
-- Bleak: the leak becomes a mythology; "Refusal Map originals" become collectibles.
+> CommonProof can prove origin. It cannot prove freedom.
 
-## Version D: Artist Descent
+### Leah's Pressure
 
-### Core
+Leah remains an obstacle but shows strain. She knows the limitation. She tells herself that staying inside CommonProof is responsible. She believes exits are a luxury. She also knows that consent language is being used to block rescue.
 
-An artist tries to make work that cannot be mistaken for generated beauty. Their search for undeniable humanity draws them toward risk, vulnerability, exploitation, and Proof of Human marketplaces.
+### Act II Turn
 
-### Central Mystery
+Victor forces Claire's case into Geneva review under the Geneva Authenticity Convention. CommonProof agrees because it believes the process will validate its standard and contain the dispute.
 
-What remains of art when audiences trust suffering more than beauty?
+Nathan, Tessa, Victor, Leah, and Julian Saye are drawn toward Geneva. Claire will appear through a live-certified channel.
 
-### Act I: Synthetic Fog
+The question becomes:
 
-- The artist loses relevance to generated work.
-- Human-origin certificates feel humiliating and insufficient.
-- A live performance involving genuine vulnerability goes viral because viewers believe it cost something.
-- A platform offers proof infrastructure and monetization.
+> Can the most verified signal in the world also be a cage?
 
-### Act II: Authenticity Market
+## Act III: Geneva
 
-- The artist's work escalates as audiences demand stronger authenticity signals.
-- Their lover, collaborator, or family member resists becoming part of the project.
-- The artist meets others who sell real experience under economic pressure.
-- The line between confession, performance, and extraction collapses.
+### Geneva Arrival
 
-### Act III: Refusal Map
+Geneva is calm, wealthy, procedural, and humanitarian. The setting should feel like dignity made into architecture: treaty rooms, lake light, translation headsets, security glass, old institutional authority.
 
-- The artist is invited into Red-tier proof culture or asked to certify someone else's suffering as art.
-- They face the choice between becoming undeniable and remaining human.
-- The strongest ending may be refusal: an unrecorded act, a destroyed work, or a private reconciliation that cannot be monetized.
+Victor arrives as a father and retired public defender. Nathan arrives as a former architect of the flawed system. Tessa arrives with arbitration language that can make the contradiction plain. Leah arrives to contain damage. Julian appears as CommonProof's composed public conscience.
 
-### Emotional Arc
+Claire appears by live-certified channel. The channel itself remains suspect because certification cannot establish freedom.
 
-From wanting to be seen to learning that being seen under proof conditions can become another form of disappearance.
+### The Proposed Protocol
 
-### Risk
+The Geneva panel, CommonProof, and even Victor initially need Claire to submit to an invasive condition-verification protocol. It would prove coercion beyond dispute, but it would also turn her condition into a new category of certified suffering.
 
-This version is thematically rich but may lack external engine unless paired with a critic, platform, or investigation.
+Claire refuses.
 
-## Current Strongest Recommendation
+Her refusal is not denial. It is agency.
 
-The hybrid former engineer story appears strongest for a first full-novel development path. It carries the cleanest conceptual irony:
+### Nathan's Climax
 
-> The safety map became the harm market.
+Nathan admits that liveness attestation was never designed to prove consent, agency, or freedom of movement. He helped create and defend the separation between origin and condition.
 
-To keep it humane, pair the engineer with a witness or moderator whose life cannot be reduced to technical guilt. The plot should move through institutions, but the ending should turn on a personal refusal to extract proof.
+More importantly, he supports Claire's refusal even though it leaves some things unproven. He stops trying to make Claire's truth absolve him.
 
-## Structural Principle
+### Tessa's Climax
 
-Every act should deepen the same inversion:
+Tessa gives the plain-language finding:
 
-1. Generated media destroys confidence.
-2. Proof systems try to restore confidence.
-3. Markets discover that refusal is the strongest proof signal.
-4. Humans become the cost of certainty.
-5. The protagonist must choose trust, protection, or uncertainty over perfect proof.
+> The record proves activity. It does not prove agency.
+
+Her sentence cuts through standards language, arbitration language, and CommonProof's confidence layer.
+
+### Victor's Climax
+
+Victor withdraws his demand for the invasive protocol. He begins the story needing proof to save his daughter. He ends by recognizing that his daughter does not have to become evidence for him.
+
+### Leah's Partial Turn
+
+Leah allows one internal limitation to surface: liveness attestation does not establish agency, consent, or freedom of movement. CommonProof hid or minimized that limitation because making it visible would create confidence degradation.
+
+Leah is later scapegoated as an isolated protocol failure.
+
+### Julian's Response
+
+Julian does not collapse or confess like a villain. He accepts the language of reform and absorbs the damage. He argues that every proof system has a boundary and civilization depends on living as if some boundaries are enough.
+
+CommonProof survives. Julian adapts.
+
+### Outcome
+
+Geneva issues a narrow finding that damages the liveness-consent assumption. Claire gains legal room to leave the administrative cage. The world remains damaged.
+
+## Resolution
+
+Claire does not become Nathan's closure. She chooses distance and unrecorded agency.
+
+Weeks later, Victor receives a physical object from Trieste: a blank card tucked around a ticket from a small museum or archive Claire once wanted to visit. It is unsigned, unverified, and not certifiable. Victor, Nathan, and Tessa choose to treat it as enough.
+
+Nathan and Tessa return to Marian Keene's archive wound. They agree to seal, not destroy, the generated "You did enough" record. Tessa admits she listened once too.
+
+The final image is Nathan and Tessa in Marian's old classroom, remembering the same woman differently and letting the difference stand.

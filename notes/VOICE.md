@@ -2,134 +2,105 @@
 
 ## Desired Feel
 
-The prose should be literary but clear, emotionally precise, technologically plausible, and morally tense. It should avoid generic dystopian exposition and instead let the reader feel the world through concrete human scenes, institutional language, and small distortions of ordinary life.
+The prose should be literary but clear, emotionally precise, technologically plausible, and morally tense. The book is intimate institutional suspense with horror in the procedures.
 
-The book should sound like it understands policy, platforms, grief, family, law, and desire without becoming a lecture about any of them.
+The world should feel like Boston/Cambridge and Geneva in the near future: old classrooms, policy institutes, arbitration offices, trust-company demos, private recovery facilities, treaty rooms, grief archives, and clean interfaces that conceal coercion.
+
+## Narrative Mode
+
+Use close third person, primarily following Nathan Keene.
+
+The narration should stay close enough to feel Nathan's guilt, restraint, desire, and delayed courage, while retaining enough distance to observe institutional language and social systems.
+
+Sparse document fragments may appear between or within chapters:
+
+- CommonProof policy/interface fragments.
+- Tessa's arbitration drafts.
+- Geneva review notices.
+- Marian Keene's oral-history course notes.
+- Sanitized refusal taxonomy excerpts.
+
+These documents should deepen the world without creating a multi-POV sprawl.
 
 ## Prose Principles
 
 - Favor clean sentences with pressure underneath.
 - Let bureaucratic language reveal horror without authorial shouting.
-- Use technical detail when it changes what a character can do, fear, lose, or misunderstand.
+- Use technical detail only when it changes what a character can do, lose, fear, or misunderstand.
 - Keep the emotional camera close.
-- Avoid explaining the whole system when a form, dashboard, argument, or family ritual can imply it.
-- Treat the reader as intelligent.
-- Let moral contradiction remain alive.
+- Let the reader infer systems from forms, dashboards, hearings, family arguments, and private choices.
+- Treat every major character as partly right.
+- Preserve Claire's dignity by refusing spectacle.
 
-## What To Avoid
+## Horror Register
 
-- Neon cyberpunk shorthand.
-- Villain monologues that explain the theme too neatly.
-- Long lectures about AI capabilities.
-- Graphic cataloging of forbidden content.
-- Satire so broad it releases tension.
-- Treating all synthetic media as spiritually empty.
-- Treating all human-made media as noble.
-- Overusing invented terms before the reader needs them.
+The horror is procedural, intimate, institutional, and spiritual.
 
-## Narrative Texture
+It should come from:
 
-The world should often feel ordinary:
+- A liveness label that keeps a missing woman unreachable.
+- A grief archive that offers one sentence too many.
+- Consent language used to block rescue.
+- A Geneva panel asking for proof that would become extraction.
+- A company surviving by naming reform.
+- A sister realizing she wanted the comfort she condemned.
 
-- A customer-service chat about a dead parent's archive.
-- A school email about guardian liveness.
-- A courtroom sidebar about confidence thresholds.
-- A dating app setting.
-- A platform dashboard.
-- A family group chat.
-- A parliamentary hearing.
-- A quiet room where devices are not allowed.
-
-This ordinariness is essential. The horror works because people have adapted.
-
-## Institutional Detail
-
-Use institutional documents sparingly but powerfully:
-
-- Policy excerpts.
-- Interface labels.
-- Legal definitions.
-- Evidence summaries.
-- Consent forms.
-- Moderation macros.
-- Treaty language.
-- Product slogans.
-- Archive notices.
-
-These should be short enough to feel real. The more bland they are, the more disturbing they can become.
-
-## Point Of View Possibilities
-
-### Close Third Person
-
-Likely strongest for literary suspense. Allows emotional intimacy while keeping some distance for institutional observation.
-
-Best with: former engineer, proof analyst, investigator, witness.
-
-### First Person
-
-Could be powerful if the narrator's own reliability, guilt, or proof status matters. Risk of overexplaining.
-
-Best with: artist, former engineer, witness.
-
-### Multi-POV
-
-Useful for geopolitical scope, but risky. Too many angles could turn the book into a systems panorama.
-
-Best limited structure: one primary POV plus occasional in-world documents or brief secondary sections.
-
-## Tone Of Horror
-
-The horror should be:
-
-- Procedural.
-- Intimate.
-- Institutional.
-- Spiritual.
-- Economically plausible.
-- Sometimes quiet.
-
-It should rarely be:
-
-- Splattery.
-- Spectacular.
-- Gleeful.
-- Puzzle-box clever at the expense of feeling.
+The book should make the reader aware of the darker Proof of Human economy without turning the reading experience into gore-core or atrocity consumption.
 
 ## Dialogue
 
-Characters should not speak in thesis statements unless they are trained public speakers, lawyers, executives, or politicians. Even then, their language should reveal self-protection.
+Characters should not speak in thesis statements unless the situation calls for formal language. The most important lines are short and loaded:
 
-Good dialogue tensions:
+- "Insufficiently false."
+- "You know what this becomes."
+- "There is still a version of this that protects people."
+- "Unverified suffering changes nothing."
+- "The record proves activity. It does not prove agency."
+- "You did enough."
 
-- "I believe you" versus "I need proof."
-- "This protects people" versus "Which people?"
-- "You consented" versus "I was broke."
-- "We certify origin, not meaning."
-- "If we do not build this, worse people will."
-- "I do not want to be evidence."
+Let silence and restraint do work, especially between Nathan and Claire, Nathan and Tessa, and Victor and Claire.
 
-## In-World Language
+## Nathan's Interior Style
 
-Invented terms should enter through use, not definition. A reader can infer "human-origin confidence" from a dashboard. They do not need a paragraph explaining it every time.
+Nathan thinks in frameworks before he thinks in needs. His narration should often begin by arranging moral discomfort into categories, then fail when ordinary feeling breaks through.
 
-Let different groups speak differently:
+He is dry, controlled, articulate, and occasionally quietly funny. His danger is not lack of feeling. It is the habit of delaying action until action can be described responsibly.
 
-- Trust companies speak in risk, consent, provenance, and safety.
-- Courts speak in admissibility, custody, thresholds, and standards.
-- Journalists speak in verification, source exposure, and timing.
-- Families speak in grief, suspicion, and need.
-- Underground brokers speak in proof, tier, access, and scarcity.
-- Religious groups speak in presence, refusal, silence, and remainder.
+## Tessa's Presence
 
-## Sample Direction
+Tessa's dialogue can be sharper, more practical, and less patient with abstraction. She sees where language hides harm because she writes administrative language for a living.
 
-Not final prose, but tonal compass:
+She should never become a simple anti-tech scold. Her skepticism comes from intimacy with systems, not ignorance of them.
 
-> The archive did not say the message was from her mother. It said the message met the threshold for maternal-origin reconstruction under the family license. Leah read the sentence three times and felt, with each reading, a little less like a daughter and a little more like a claimant.
+## Claire's Presence
 
-This is the desired lane: clean, intimate, procedural, quietly awful.
+For much of the book, Claire is present through mediated traces: samples, artifacts, remembered lines, constrained signals, and eventually a live-certified channel.
 
-## Moral Style
+When she speaks directly, she should be lucid, unsentimental, and warm only where warmth is earned. She does not exist to forgive Nathan.
 
-The narration should not sneer at people who want proof. It should understand them. The mother, voter, journalist, survivor, judge, and lover all have reasons. The tragedy is not that they want the wrong thing. The tragedy is that a society organized around proof teaches them to ask for it in ways that damage the people they hope to protect.
+## Julian's Register
+
+Julian Saye is warm, patient, and almost pastoral. He makes frightened rooms feel governed. His sentences should be persuasive because they contain truth.
+
+He should not sneer. He should metabolize harm into necessity.
+
+## Institutional Documents
+
+Documents should be short, plausible, and bloodless. The more bland they are, the more disturbing they can be.
+
+Good document forms:
+
+- Arbitration finding excerpt.
+- Liveness status notice.
+- CommonProof consent limitation.
+- Geneva scheduling note.
+- Grief archive reconstruction warning.
+- Marian's oral-history class prompt.
+
+Avoid long expository files. Let fragments imply the system.
+
+## Ending Tone
+
+The ending should be quiet and devastating rather than triumphant. Geneva creates a narrow breach. Claire chooses distance. CommonProof adapts. Leah is scapegoated. Nathan and Tessa seal the archive and sit in a classroom with unverifiable memory.
+
+The final feeling should be grief with a little restored trust.

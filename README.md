@@ -8,6 +8,8 @@
 
 The result is not the disappearance of reality. Reality still happens. The catastrophe is the collapse of shared confidence in it.
 
+The novel follows **Nathan Keene**, a former CommonProof Senior Safety Architect now working at the Carver Institute for Civic Evidence in Cambridge. When Nathan sees his missing former teammate **Claire Anik** appear in a certified liveness demo and use their old phrase, "insufficiently false," as an SOS, he and his estranged sister **Tessa Keene** uncover a proof system that can verify a person is alive without proving they are free.
+
 The central premise:
 
 > When anything beautiful can be generated, suffering becomes the last trusted signal of authenticity.
@@ -43,13 +45,14 @@ Avoid generic cyberpunk aesthetics. This world should feel like the present exte
 - [WORLD.md](notes/WORLD.md): Everyday life, institutions, media, law, work, family, grief, and culture.
 - [GEOPOLITICS.md](notes/GEOPOLITICS.md): International systems, treaties, conflict, elections, war, and intelligence.
 - [TERMINOLOGY.md](notes/TERMINOLOGY.md): Glossary of in-world language.
-- [CHARACTERS.md](notes/CHARACTERS.md): Protagonist candidates, antagonists, supporting cast, and relationships.
-- [OUTLINE.md](notes/OUTLINE.md): Literary, thriller, and hybrid plot architectures.
+- [CHARACTERS.md](notes/CHARACTERS.md): Canon cast, relationships, wounds, and arcs.
+- [OUTLINE.md](notes/OUTLINE.md): Canon plot architecture from Boston/Cambridge to Geneva.
 - [SCENES.md](notes/SCENES.md): High-value scene bank.
 - [VOICE.md](notes/VOICE.md): Style, narration, point of view, and prose principles.
-- [QUESTIONS.md](notes/QUESTIONS.md): Open questions for future development.
+- [VOICES.md](notes/VOICES.md): Character speech, diction, rhythm, and institutional registers.
+- [QUESTIONS.md](notes/QUESTIONS.md): Remaining craft checks and drafting details.
 - [DO_NOT_DO.md](notes/DO_NOT_DO.md): Creative traps to avoid.
 
-## Working Assumptions
+## Canon Direction
 
-This first pass assumes the novel should protect ambiguity, avoid exploitative depiction, and treat proof as both necessary and dangerous. The strongest version of the book will understand why people want certainty before showing how badly certainty can be monetized.
+The story is intimate institutional suspense rather than a globe-spanning conspiracy thriller. Journalism is on its dying breath and does not save the day. The Red Market stays offstage. The climax occurs in Geneva, where Claire refuses to become a new category of certified suffering. The ending is not systemic victory, but a narrow breach, an unsigned sign of Claire's agency, and a small restored trust between Nathan and Tessa.

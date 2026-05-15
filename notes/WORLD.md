@@ -2,281 +2,187 @@
 
 ## Overview
 
-The world of **Proof of Human** is the present extended into an authenticity crisis. It is not chrome, neon, and permanent night. It is clean apps, institutional dashboards, biometric onboarding, court standards, platform trust labels, creator monetization pages, insurance disputes, school consent forms, election verification studios, and families arguing over whether a voice message from a dead person is real.
+The world of **Proof of Human** is the present extended into an authenticity crisis. It is not neon cyberpunk. It is clean apps, court standards, arbitration drafts, university institutes, biometric onboarding, platform labels, grief archives, insurance disputes, school policies, and private facilities that speak in consent language.
 
 Reality still happens. Shared confidence in reality has collapsed.
 
-## Synthetic Media Collapse
+## Synthetic Fog
 
-AI systems can generate indistinguishable:
+AI-generated media has become indistinguishable from human-created media. Text, voice, video, song, testimony, memory, confession, political scandal, family archive, courtroom evidence, and apparent live communication can all be synthesized convincingly.
 
-- Text and private messages.
-- Voice and live speech.
-- Photos and videos.
-- Music, art, and performance.
-- Journalism and archival footage.
-- Intimate recordings.
-- Political scandals.
-- Family memories.
-- Confessions and apologies.
-- Live calls and apparent human conversation.
+People do not stop believing. They believe selectively, defensively, and unevenly. They believe what helps grief, ideology, fear, desire, or exhaustion. They disbelieve what costs them.
 
-The social effect is not universal disbelief. It is selective belief under stress. People believe what serves grief, ideology, fear, desire, or exhaustion. They disbelieve what costs them something.
+Synthetic fog is the everyday condition in which reality exists but every claim arrives surrounded by plausible alternatives.
 
-The everyday phrase is **synthetic fog**: not total unreality, but the condition where every claim arrives surrounded by plausible alternatives.
+## Verification Infrastructure
 
-## Verification Systems
-
-Several overlapping systems attempt to restore confidence:
+The world has many overlapping authenticity systems:
 
 - Cryptographic camera signatures.
-- Watermarking schemes.
+- Verified capture devices.
 - Biometric liveness checks.
-- Chain-of-custody capture devices.
-- Certified newsroom equipment.
-- Courtroom authentication labs.
+- Chain-of-custody recording.
+- Certified newsroom and court equipment.
+- Human-origin registries.
 - Provenance ledgers.
-- Government authenticity registries.
-- Human-made art registries.
 - Platform proof labels.
-- Witness signatures.
+- Government and treaty standards.
 - Insurance-grade event capture.
-- Human Origin Protocol compliance.
+- Grief archive licensing.
+- Consent integrity review.
 
-None of them is final. Every system can be spoofed, corrupted, bought, coerced, hacked, socially discredited, or rendered politically suspicious.
+None of them is final. Every proof layer can be spoofed, corrupted, bought, coerced, socially discredited, or turned against the vulnerable.
 
-The public eventually learns that certification is another claim made by another institution.
+## CommonProof
 
-## Human Origin Protocol
+CommonProof is the dominant trust infrastructure company in the novel. Its language is civic, calm, and expensive. It does not brand itself around Proof of Human; it uses phrases like human-origin certification, liveness attestation, civic evidence, consent integrity, and provenance assurance.
 
-The **Human Origin Protocol** is a technical and legal standard for certifying that media came from a human source under defined conditions. It may include:
+CommonProof owns or influences:
 
-- Device identity.
-- Biometric presence.
-- Continuous capture.
-- No generative interpolation.
-- No synthetic voice substitution.
-- Jurisdictional custody.
-- Witness attestation.
-- Consent state.
-- Hash registration.
-- Platform handling history.
+- Identity verification.
+- Liveness infrastructure.
+- Court and insurance proof tools.
+- Grief archive standards.
+- Human-origin capture devices.
+- Standards committees.
+- Certification APIs.
+- Consent review processes.
+- Recovery and identity-protection partnerships.
 
-It becomes embedded in phones, police cameras, journalism kits, court evidence workflows, creator platforms, dating apps, grief archives, employment interviews, school records, and medical consultations.
+The company is not publicly monstrous. Its products solve real problems. Its danger comes from becoming unavoidable.
 
-Its promise: preserve truth.
+CommonProof's central flaw is the separation of origin from condition. It can prove that a human source is active. It cannot prove that the person is free.
 
-Its cost: ordinary life becomes evidentiary.
+## Carver Institute For Civic Evidence
 
-## Platforms And Trust Companies
+The Carver Institute for Civic Evidence is a Harvard/MIT-adjacent policy and research institute in Cambridge. Nathan Keene works there after leaving CommonProof.
 
-The largest companies are no longer merely AI companies or social platforms. They are **trust companies**. They own:
+The institute studies democratic evidence, authentication policy, civic trust, and privacy-preserving verification. It is respectable, careful, and close enough to power to make Nathan feel useful without requiring him to touch operational harm every day.
 
-- Identity services.
-- Verification hardware.
-- Media platforms.
-- Cloud archives.
-- AI generation tools.
-- Moderation infrastructure.
-- Creator marketplaces.
-- Courtroom evidence software.
-- Newsroom provenance systems.
-- Biometric databases.
-- Grief and memory products.
-- Political certification services.
+The novel opens with Nathan in this world: giving polished talks, translating moral uncertainty into public language, and trying to live as if he left CommonProof responsibly.
 
-Their public language is calm and civic-minded:
+## Boston And Cambridge
 
-> Proof is peace.
+The main setting is Boston/Cambridge:
 
-The slogan is frightening because it is almost true.
+- Universities and policy institutes.
+- Kendall Square-style trust labs and renovated biotech campuses.
+- Old brick facades with new verification infrastructure inside.
+- Arbitration offices where loss becomes language.
+- Jamaica Plain domestic texture through Tessa.
+- Cambridge apartments, lecture halls, river walks, winter light.
+- Marian Keene's old classroom.
 
-Trust companies sell reality in tiers. Free users get weak labels and slow dispute resolution. Premium users get verified feeds, proof recovery, identity shielding, archive insurance, and priority authenticity arbitration.
+The setting should give the novel old history pressing against new proof systems.
 
-## Class Divide
+## CommonProof's Local Presence
 
-The rich can afford verified reality:
+CommonProof's Boston/Cambridge site occupies a renovated insurance building or former biotech campus near Kendall Square. It has glass interiors, compliance suites, consent review rooms, proof labs, demo theaters, and old institutional architecture wrapped around new trust infrastructure.
 
-- Verified childcare streams.
-- Verified tutors and therapists.
-- Verified home security.
-- Verified medical consultations.
-- Verified legal records.
-- Verified dating pools.
-- Verified family archives.
-- Verified live performances.
-- Verified spiritual retreats.
-- Verified news environments.
+It should not feel like a flashy tech campus. It should feel like civic infrastructure with shareholders.
 
-The poor live with synthetic fog as a daily hazard:
+## Private Recovery And Identity-Protection Facility
 
-- Scam calls from family voices.
-- Fake eviction notices.
-- Synthetic job interviews.
-- Fabricated criminal accusations.
-- Cheap griefware.
-- Poorly authenticated police encounters.
-- Schools that cannot distinguish absence excuses from generated messages.
-- Courts that discount their evidence.
+Claire is held in a private recovery and identity-protection facility outside the city. On the surface, it is humane and high-end. It serves witnesses, executives, journalists, public figures, and people escaping synthetic harassment.
 
-Their suffering is easier to doubt and easier to harvest.
+Its language emphasizes:
+
+- Privacy.
+- Trauma-informed care.
+- Witness protection.
+- Identity stabilization.
+- Consent integrity.
+- Controlled contact.
+- Liveness preservation.
+
+Behind calm doors are CommonProof capture rooms and legal protocols that make leaving difficult. Claire is officially present under consent and protection. In practice, her legal status, care, credibility, and freedom of movement are tied to the system that contains her.
+
+## Liveness Active
+
+Liveness active means CommonProof has recent certified human-origin capture events tied to a person's biometrics. The status is strong enough to satisfy insurers, platforms, and administrative systems that the person is alive and participating.
+
+It does not reveal location.
+
+It does not guarantee freedom.
+
+It does not prove consent.
+
+Claire's liveness active status prevents Victor Anik from getting her recognized as missing or endangered. The proof of her life becomes the mechanism that keeps her unreachable.
+
+## Insurance And Arbitration
+
+Insurance systems are central to everyday proof culture. Claims can be denied because:
+
+- A record lacks human-origin confidence.
+- A message has synthetic contamination risk.
+- A person appears liveness active.
+- Consent state cannot be established.
+- A loss event lacks certified capture.
+- A family archive does not meet policy thresholds.
+
+Tessa Keene works at an arbitration firm drafting decisions and language around these disputes. Her world shows how proof culture affects ordinary people long before it becomes a Geneva-level question.
 
 ## Law And Courts
 
-Courtrooms become authentication theaters. Every piece of evidence has:
+Courtrooms and legal systems are overwhelmed by synthetic fog. Evidence has provenance reports, confidence scores, device histories, chain-of-custody gaps, and expert disputes.
 
-- Origin claims.
-- Confidence scores.
-- Synthetic contamination reports.
-- Chain-of-custody gaps.
-- Expert witnesses.
-- Platform handling histories.
-- Jurisdictional conflicts.
+The law still needs proof. The book must honor that. But legal proof can become cruel when it demands that vulnerable people make themselves legible in ways that repeat harm.
 
-Criminals claim real evidence is synthetic. Innocent people are ruined by synthetic evidence. Judges struggle to decide whether authentication standards protect defendants or make justice impossible.
+Victor Anik's background as a public defender is essential because he knows why proof protects people. His daughter's case forces him to confront when proof becomes a cage.
 
-Legal horror should come from procedure:
+## Grief Archives
 
-- A survivor's memory is inadmissible without device corroboration.
-- A defendant is convicted by a confidence score nobody fully understands.
-- A family cannot access a loved one's archive without consenting to identity reconstruction.
-- A court orders a person to submit biometric proof that feels like violation.
+Grief archives are mainstream. People license voices, images, messages, teaching materials, and memory reconstructions before death. Some are comforting. Some are exploitative. Most are both.
 
-## Journalism And Media
+Marian Keene refused personal reconstruction, but Nathan authorized a limited verified reconstruction of her final classroom materials and messages. The system produced one additional sentence, "You did enough," which became the wound between Nathan and Tessa.
 
-Journalists must authenticate faster than synthetic counter-narratives can spread. Newsrooms maintain certified devices and evidence teams. War correspondents carry liveness stacks that may make them targets.
+The grief archive plot keeps the global premise intimate.
 
-The problem is speed. Truth that arrives too late loses political force.
+## Education And Oral History
 
-News packages may include:
+Marian Keene taught history, especially oral history and testimony. Her classroom and course notes recur as a counterpoint to CommonProof.
 
-- Human-origin confidence.
-- Source exposure risk.
-- Synthetic denial attack likelihood.
-- Witness chain status.
-- Known counter-fakes.
+Marian believed records matter, but she knew recording a person is never the same as preserving them. Her old teaching materials let the novel explore evidence without making proof sacred.
 
-Some journalists resent becoming forensic technicians. Others believe verification is now part of the job. Small outlets cannot afford the tools and become easier to dismiss.
+## Journalism
 
-## Politics And Elections
+Journalism is on its dying breath in this reality. Newsrooms exist, but public exposure is no longer a reliable path to action. Synthetic denial, lawsuits, verification costs, audience exhaustion, and platform dependency have weakened journalism's ability to create shared consequence.
 
-Campaigns become authenticity contests. Candidates speak in verified studios. Debates use certified cameras, biometric liveness checks, third-party attestation, and public proof feeds.
+The story does not use a heroic reporter or newsroom subplot. The leverage comes through legal and standards contradiction.
 
-Voters become numb to polished verification. A perfectly verified speech still feels manufactured. Political charisma shifts toward unfiltered risk.
+## Red Market
 
-The new aesthetic:
+The Red Market exists mostly offstage. It is the economy that values human-origin material because AI systems refuse to generate similar categories. The novel should make the reader aware of its presence through language, incentives, traces, and institutional complicity, not through spectacle.
 
-> Authenticity as self-harm.
+The Red Market begins with ambiguous material: dangerous stunts, conflict feeds, disaster footage, endurance streams, grief rituals, live confessionals, and other proof-valued experience. It darkens because pricing rewards intensity, risk, coercion, and harm.
 
-A candidate can break through by showing humiliation, danger, grief, confession, or bodily vulnerability under live proof conditions. Campaigns condemn the tactic while studying its engagement metrics.
+The book should never become gore-core or an atrocity catalog.
 
 ## Family Life
 
-Families fight over memories.
+Families live with proof as an intimate pressure:
 
-One sibling wants to preserve a generated version of a dead parent because it comforts them. Another calls it desecration. A child cannot tell whether a video of a grandparent is archive, reconstruction, or griefware. A lover denies sending a real message by calling it synthetic. A parent requires liveness checks before answering calls from their own teenager.
+- Was a message really sent?
+- Is a dead parent's voice archive comforting or violating?
+- Is a family video original, reconstructed, or generated?
+- Is refusing verification a right or a betrayal?
 
-Domestic intimacy becomes administrative:
-
-- Family archive permissions.
-- Posthumous identity licenses.
-- Synthetic communication boundaries.
-- Child consent defaults.
-- Elder fraud protections.
-- Memory authenticity disputes.
-
-## Education
-
-Schools struggle with proof:
-
-- Essays may be generated.
-- Parent calls may be fake.
-- Bullying footage may be synthetic or real.
-- Student identities may be spoofed.
-- Historical footage requires provenance lessons.
-- Art classes debate whether human-made work matters.
-
-Elite schools teach verification literacy, source ethics, and live seminar performance. Poor schools adopt invasive monitoring because they cannot afford subtler systems.
-
-The question for children: what does it mean to learn in a world where any answer can be produced and no record can be trusted?
-
-## Work
-
-Employment becomes proof-heavy:
-
-- Verified interviews.
-- Human-origin portfolios.
-- Liveness productivity checks.
-- Anti-impersonation meetings.
-- Authenticity clauses.
-- Synthetic collaboration disclosures.
-
-Some workers sell **authenticity labor**: live presence, human response, handwritten notes, ungenerated performance, or verified emotional work.
-
-Low-wage workers are monitored more intensely because employers claim synthetic fraud risk. Executives outsource their own presence through licensed replicas.
+Nathan and Tessa embody this pressure through Marian's archive and Robert's older, less recordable absence.
 
 ## Dating And Intimacy
 
-Dating apps offer human-origin tiers. Profiles include liveness streaks, synthetic edit disclosures, verified conversation windows, and intimacy authenticity settings.
+Romance exists in a culture of verification checks, human-origin labels, and synthetic disclosure settings. Nathan and Claire's relationship avoids a contemporary dating plot, but their unspoken love is shaped by professional boundaries and proof culture.
 
-Romance becomes vulnerable to both fraud and over-proof:
+Nathan must learn that restraint is not always care, and care is not ownership.
 
-- Was the apology generated?
-- Did they really write the message?
-- Is the video live?
-- Is the desire performed for a proof score?
-- Does requiring proof kill the trust it is supposed to protect?
+## Religion And Refusal
 
-The best intimate scenes should show how exhausting proof can become between people who love each other.
+Some communities reject recording and treat unverified presence as sacred. This remains background world texture rather than a major subplot. The idea matters because Claire's final freedom resembles refusal: not denial, not disappearance as defeat, but agency that does not submit to certification.
 
-## Grief And Memory
+## Geneva
 
-Grief archives are mainstream. People license their voices, images, messages, and memory reconstructions before death. Some families find comfort in them. Others experience them as haunting corporate afterlives.
+The climax takes place in Geneva under the Geneva Authenticity Convention. Geneva represents old humanitarian authority, neutrality, wealth, treaty language, and the promise that human dignity can be protected by procedure.
 
-Terms may include:
+In Geneva, Claire appears through a live-certified channel. The final question is whether the most verified signal in the world can also be a cage.
 
-- Posthumous identity license.
-- Memory reconstruction consent.
-- Archive confidence.
-- Synthetic grief disclosure.
-- Evidentiary grief asset.
-
-The horror is not simply "dead people can call." It is that mourners must decide whether comfort is betrayal, whether authenticity matters after death, and who profits from the dead remaining socially available.
-
-## Religion And Ideology
-
-The trust collapse produces new movements:
-
-- **Unrecorded congregations** treat unmediated presence as sacred.
-- **Remainder sects** believe the human soul is found in what machines cannot certify.
-- **Pain-proof movements** treat suffering as the only reliable evidence of personhood.
-- **Synthetic transcendents** believe generated reality is superior because it is freed from physical corruption.
-- **Refusal communities** treat refusal to provide proof as a sacred right.
-
-Religion should not be decorative. It gives language to the central wound: whether humanity still means something when simulation can imitate all outward signs.
-
-## Entertainment And Art
-
-AI-generated beauty floods culture. Human artists respond in different ways:
-
-- Some lean into collaboration.
-- Some sell human-origin certificates.
-- Some perform live under proof conditions.
-- Some reject recording entirely.
-- Some escalate into vulnerability, danger, or self-exposure.
-
-The art world becomes obsessed with cost. A painting made slowly by a human becomes valuable. A performance that risks something becomes more valuable. The market's appetite for evidence of sacrifice becomes spiritually corrosive.
-
-## Everyday Texture
-
-Daily life should include small proof rituals:
-
-- "Send me a live blink."
-- "Is this human-origin?"
-- "The school needs a verified guardian call."
-- "My mother's archive keeps failing confidence."
-- "That clip was denied by three labs and believed by everyone."
-- "I do not take unverified apologies anymore."
-- "The camera says yes. I still do not believe it."
-
-The world should feel normal enough to be frightening.
+Geneva issues a narrow finding. It does not save the world. It cracks one dangerous assumption: liveness does not prove agency.

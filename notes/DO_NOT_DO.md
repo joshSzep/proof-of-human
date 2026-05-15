@@ -1,77 +1,74 @@
 # Do Not Do
 
-This document protects the project from becoming smaller than its premise.
+This document protects the canon version of **Proof of Human** from drifting back into easier, shallower, or more exploitative forms.
+
+## Do Not Reopen The Protagonist
+
+The protagonist is Nathan Keene. The story is not an ensemble panorama, not a journalist investigation, not a police procedural, and not an artist-descent novel.
+
+The primary POV is close third person through Nathan, with sparse document fragments.
 
 ## Do Not Make This A Simple "AI Bad" Story
 
 The machines are not the central evil. The central evil is humanity adapting badly to infinite simulation. AI creates the conditions for crisis, but people, markets, institutions, governments, and private longings create Proof of Human.
 
-The book should understand both the usefulness and danger of AI systems.
+CommonProof's tools solve real problems. That is why the system is dangerous.
 
-## Do Not Make It Torture Porn Or Atrocity Spectacle
+## Do Not Turn The Red Market Into Spectacle
 
-The horror should not depend on graphic depiction of the worst content. Keep the gaze ethical. Focus on systems, incentives, aftermath, euphemism, bureaucracy, markets, interfaces, family damage, and moral pressure.
+The Red Market stays offstage. The reader should understand its incentives, traces, and consequences without consuming lurid examples.
 
-Implication can be stronger than display.
+Make the reader aware. Do not turn the book into gore-core, atrocity spectacle, or a catalog of forbidden material.
 
-## Do Not Overexplain The Technology At The Expense Of Character
+## Do Not Add A Heroic Journalist
 
-The proof stack matters only when it changes a human situation. Avoid diagrams disguised as scenes. Let technology appear through conflict: a court ruling, a failed archive, a denied claim, a dating check, a moderation label, a campaign event.
+Journalism is on its dying breath in this reality. Public exposure is not the plot lever. The story's leverage comes from legal and protocol contradiction, especially the fact that liveness proves activity but not agency.
 
-## Do Not Make Every Institution Stupid Or Evil
+## Do Not Make Julian Cartoonishly Evil
 
-The strongest version of the book shows institutions doing necessary work badly, incompletely, or at moral cost. Courts need evidence. Journalists need verification. Schools need safety. Democracies need shared reality. Families need protection from fraud.
+Julian Saye is persuasive because he is partly right. He believes proof infrastructure protects democracy from synthetic collapse. He should be warm, serious, civic-minded, and structurally monstrous.
 
-The tragedy is that legitimate needs create exploitable systems.
+He does not need to have personally ordered Claire's containment. His guilt is that he built and protects the machine.
 
-## Do Not Make The Villain Cartoonish
+## Do Not Make Claire Nathan's Reward
 
-The antagonist should be persuasive because they are partly right. They may sincerely believe proof is civilization's last defense against chaos.
+Claire is not Nathan's absolution, romantic prize, or proof that he was good. Her freedom requires distance and unrecorded agency.
 
-Avoid sadism, mustache-twirling, or secret-mastermind simplicity. The more plausible villain is calm, brilliant, wounded, civic-minded, and structurally monstrous.
+Nathan's love matters because it tests whether he can help without possessing.
 
-## Do Not Make The World Too Far-Future Or Too Cyberpunk
+## Do Not Make Tessa Morally Pure
 
-The setting should feel like the near future of existing platforms, policies, courts, schools, creator economies, grief tech, authentication tools, and political media.
+Tessa condemns Nathan for accepting Marian's generated "You did enough" sentence, then later admits she listened once too. Her skepticism is powerful because she knows the temptation.
 
-Avoid neon shorthand unless subverted. The horror lives in clean apps and legal language.
+She should bond with Nathan through shared weakness, not superiority.
 
-## Do Not Forget Legitimate Needs For Proof
+## Do Not Flatten Victor
 
-People want proof for sympathetic reasons:
+Victor Anik's demand for proof must be sympathetic. As a retired public defender, he knows proof protects people. His arc matters because he learns that Claire does not have to become evidence for him.
 
-- A mother wants to know if her son's last message is real.
-- A journalist wants war crimes documented.
-- A falsely accused person wants synthetic evidence exposed.
-- A survivor wants denial defeated.
-- A court wants fairness.
-- A voter wants accountability.
-- A lover wants to know an apology came from the person.
+## Do Not Let Leah Off Cleanly
 
-Without these needs, the market becomes too easy to condemn and the story loses moral seriousness.
+Leah Morin partially turns, but not into a simple ally. Her choice costs her. CommonProof scapegoats her as an isolated protocol failure.
 
-## Do Not Confuse Authenticity With Goodness
+## Do Not Overexplain Technology
 
-Human-origin content can be cruel, coerced, vain, false, exploitative, or empty. Synthetic content can comfort, teach, heal, delight, or reveal something emotionally true.
+The proof stack matters when it changes a human situation:
 
-The book should not worship the human simply because it is human. It should ask what humanity requires of us.
+- Claire is liveness active but unreachable.
+- Marian's archive offers one sentence too many.
+- Tessa's arbitration language blocks or frees a claim.
+- Geneva asks for a condition-verification protocol.
 
-## Do Not Let The Premise Become More Important Than The People
+Avoid diagrams disguised as scenes.
 
-Every major idea needs a human pressure point. If a scene only explains the world, replace it with a scene where someone wants something and proof changes the cost.
+## Do Not Make Geneva A Total Victory
 
-## Do Not Use Invented Terms As Decoration
+Geneva issues a narrow finding. It damages the liveness-consent assumption. It does not defeat CommonProof or restore reality.
 
-Terms should earn their place. Use fewer, stronger words. Let a term appear where someone would actually say it: court, platform, market, policy, family, religion.
+Julian survives and adapts. The world remains damaged.
 
-## Do Not Make The Red List A Lurid Catalog
+## Do Not Make The Ending Tidy
 
-The Red List should be frightening because it is structured, sanitized, and useful. Treat it as a taxonomy, standard, spreadsheet, classifier hierarchy, or policy appendix. Do not let it become a list of atrocities for the reader to consume.
+Claire does not send Nathan a neat final message. The hint of her agency comes through Victor receiving an unsigned, unverified physical object from Trieste.
 
-## Do Not Solve The World Too Easily
-
-No single leak, law, hack, or death should restore trust. The ending can save people, expose a pattern, break a pipeline, or create a refusal. It should not heal the whole civilization.
-
-## Do Not Treat Uncertainty As Failure
-
-The book's deepest move may be to show uncertainty as an ethical condition of trust. Refusing perfect proof is not the same as surrendering to lies. It may be the last way to protect human dignity.
+Nathan and Tessa seal Marian's archive record. They do not delete grief, solve memory, or agree on everything. They choose trust with boundaries.

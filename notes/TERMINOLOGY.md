@@ -1,268 +1,235 @@
 # Terminology
 
-The language of this world should sound plausible, useful, and morally compromised. The best terms feel as if they were coined by policy lawyers, product managers, standards bodies, trust-and-safety teams, intelligence analysts, or underground brokers.
-
-Do not use every term. Let the vocabulary emerge from point of view and setting.
+Use fewer, stronger terms. The language should feel plausible, bureaucratic, corporate, legal, technical, or quietly underground. Avoid decorative vocabulary.
 
 ## Core Terms
 
 ### Proof of Human
 
-Certified or socially accepted evidence that media, action, testimony, or experience originated with a human being under real conditions.
+Broad cultural and market term for media, testimony, or experience valued because it is believed to be human-origin under real conditions.
 
-In-world usage: public label, market category, treaty language, underground brand, philosophical slogan.
+CommonProof does not use it as a primary product name. The company prefers sanitized language. The phrase grows from public discourse, underground markets, critics, legal disputes, and cultural dread.
 
 Tone: clean, bureaucratic, spiritually horrifying.
 
-### Proof Content
+### Synthetic Fog
 
-Media valued because it is believed to document human-origin experience rather than synthetic production.
+The social condition in which reality exists but every claim arrives surrounded by plausible synthetic alternatives.
 
-Usage: platforms and brokers use it; journalists dislike the flattening effect.
+Tone: public commentary, policy shorthand, everyday speech.
 
-Tone: commercial, morally evasive.
+### CommonProof
+
+Dominant private trust infrastructure company founded by Julian Saye. It provides human-origin certification, liveness attestation, consent integrity review, court and insurance proof tools, grief archive standards, and international authenticity infrastructure.
+
+Tone: civic, calm, expensive.
+
+### Carver Institute For Civic Evidence
+
+Cambridge policy institute where Nathan Keene works after leaving CommonProof. It studies democratic evidence, authenticity standards, and privacy-preserving proof.
+
+Tone: elite, respectable, slightly insulated.
+
+## Human-Origin And Liveness Terms
 
 ### Human-Origin
 
-A technical label indicating that content originated from a human source according to a defined protocol.
+Label indicating that content originated from a human source according to a defined protocol.
 
-Usage: courts, platforms, archives, marketplaces.
-
-Tone: neutral, institutional.
+Tone: technical, institutional.
 
 ### Human-Origin Confidence Score
 
-A probabilistic rating assigned to media or testimony.
+Probabilistic rating assigned to media, testimony, or records.
 
-Usage: dashboard label, court exhibit, newsroom warning, insurance report.
-
-Tone: technical, falsely calming.
+Tone: technical and falsely calming.
 
 ### Human Origin Protocol
 
-The major standard for certifying human source, device provenance, biometric presence, consent state, and chain of custody.
+Technical and legal standard for certifying device provenance, biometric presence, continuous capture, non-generation, handling history, and consent state.
 
-Usage: law, government, platforms, phones, cameras, journalism kits.
+Tone: infrastructural.
 
-Tone: formal, infrastructural.
+### Liveness Attestation
 
-### Synthetic Fog
+Certification that a human source was biometrically present during capture.
 
-The social condition in which reality exists but is surrounded by plausible synthetic alternatives.
+Tone: technical, court/insurance/platform usage.
 
-Usage: journalism, academic commentary, casual speech.
+### Liveness Active
 
-Tone: vivid but not melodramatic.
+Administrative status indicating recent certified human-origin capture events tied to a person's biometrics.
 
-### Trust Collapse
+In Claire's case, this status prevents Victor Anik from establishing that she is missing or endangered. It proves activity while concealing condition.
 
-The historical period or ongoing condition after synthetic media becomes indistinguishable from authentic media.
+Tone: sterile and awful.
 
-Usage: policy papers, documentaries, political speeches.
+### Live-Certified Channel
 
-Tone: institutional shorthand.
+A communication channel certified as carrying real-time human-origin presence.
 
-## Verification Terms
+At Geneva, Claire appears through a live-certified channel, and the legitimacy of the channel remains part of the final tension.
 
-### Attestation Layer
+Tone: high-stakes procedural.
 
-The technical infrastructure that records provenance, signatures, identity claims, and handling history.
+### Origin Versus Condition
 
-Tone: technical, infrastructure.
+The central conceptual distinction. Origin asks whether a human source is real. Condition asks whether that human source is free, consenting, coerced, trapped, threatened, or dependent.
 
-### Liveness Chain
+CommonProof can certify origin. Claire's case exposes that it cannot establish condition.
 
-A continuous record proving that a human source was present during capture.
+Tone: standards language with moral force.
 
-Tone: forensic, slightly dehumanizing.
+### Activity Versus Agency
 
-### Witness Stack
+Tessa's plain-language version of the flaw:
 
-The combined set of devices, people, signatures, timestamps, biometrics, and custody records supporting a claim.
+> The record proves activity. It does not prove agency.
 
-Tone: newsroom and courtroom jargon.
+Tone: legal, devastating, human.
 
-### Origin Lock
+## Consent And Policy Terms
 
-A device or platform setting that prevents generative alteration after capture.
+### Consent Integrity
 
-Tone: product feature.
+CommonProof department and review category responsible for evaluating whether participation, capture, and data use meet formal consent requirements.
 
-### Certified Event Capture
+Leah Morin is Head of Consent Integrity.
 
-Media recorded under conditions that meet evidentiary standards.
+Tone: humane-sounding, potentially evasive.
 
-Tone: legal and insurance-friendly.
+### Condition-Verification Protocol
 
-### Chain-of-Human Custody
+Invasive Geneva-level process that could attempt to prove coercion or freedom beyond ordinary liveness records.
 
-A darkly comic variation on chain of custody, used when human witnesses and handlers are part of the proof.
+Claire refuses this protocol because it would turn her condition into a new category of certified suffering.
 
-Tone: bureaucratic, unsettling.
+Tone: official, frightening.
 
-### Synthetic Contamination Risk
+### Confidence Degradation
 
-The likelihood that generated material, interpolation, editing, or model-based reconstruction has entered a record.
+Internal CommonProof phrase for what happens when users, courts, insurers, or governments learn that a proof label has important limitations.
 
-Tone: forensic.
+The leaked limitation states that liveness attestation does not establish agency, consent, or freedom of movement, but displaying that limitation would create confidence degradation.
 
-## Market Terms
+Tone: corporate rot.
 
-### Red List
+### Consent State
 
-The categories of content that major AI systems, platforms, insurers, or governments refuse to generate, host, or monetize.
+Protocol field claiming to describe whether recorded participation was authorized.
 
-Usage: official policy, leaked taxonomy, underground price guide.
+Tone: sterile; should feel inadequate when applied to Claire.
 
-Tone: clean on the surface, dangerous underneath.
+## Refusal And Market Terms
 
-### Red Feed
+### Refusal Integrity
 
-An underground or semi-legal feed of high-refusal-value human-origin media.
+Claire Anik's former CommonProof role. Refusal Integrity manages the ethical and technical boundaries around what systems refuse to generate, certify, host, or process.
 
-Tone: platform slang, illicit.
+Tone: clean, internal, ominous.
 
-### Red Market
+### Refusal Taxonomy
 
-The global economy around Proof of Human media, especially material whose value derives from refusal categories.
+Classifier and policy structure defining refusal categories. Claire warned it could become a market map.
 
-Tone: analytical, journalistic.
-
-### Red-Tier Media
-
-Content classified as high risk, high refusal, high proof value, or restricted distribution.
-
-Tone: platform policy jargon.
+Tone: technical, central.
 
 ### Refusal Map
 
-A leaked, inferred, or traded model of what AI systems will not generate.
+Leaked, inferred, or exploited model of refusal categories. The market uses it to identify what real human-origin material will carry taboo value.
 
-Usage: central plot artifact.
+Tone: ominous, not flashy.
 
-Tone: technical and ominous.
+### Red List
 
-### Refusal Content
+Formal or semi-formal set of categories mainstream systems refuse to generate, distribute, or monetize.
 
-Human-origin material valued because AI systems refuse to synthesize comparable material.
+Tone: policy language that becomes a price list.
+
+### Red Market
+
+Offstage global economy for human-origin material whose value comes from refusal scarcity.
+
+Tone: journalistic, analytic, underground.
+
+### Proof Content
+
+Commercial term for human-origin media valued as undeniable reality.
 
 Tone: market euphemism.
 
-### Black Tag
-
-Underground marker indicating content is claimed to be human-origin and refusal-category.
-
-Tone: illicit marketplace slang.
-
-### The Unmade
-
-Poetic or religious term for human experiences that machines will not or cannot legitimately make.
-
-Tone: theological, literary. Use sparingly.
-
-## Legal And Policy Terms
+## Legal And Administrative Terms
 
 ### Geneva Authenticity Convention
 
-International treaty governing verified human media, crisis documentation, war evidence, and proof standards.
+International treaty framework for verified human media, crisis evidence, identity claims, and high-stakes authenticity review.
 
 Tone: noble, legal, compromised.
 
-### Consent Integrity Review
+### Geneva Review
 
-Procedure for evaluating whether recorded consent was meaningful, current, and uncoerced.
+Treaty-based review process that Victor Anik forces Claire's case into.
 
-Tone: humane-sounding, possibly inadequate.
+Tone: procedural, high-stakes.
 
-### Harm Provenance
+### Certified Event Capture
 
-The documented origin and handling of media involving harm, risk, coercion, or trauma.
+Media recorded under evidentiary conditions.
 
-Tone: policy language that should make the reader uneasy.
+Tone: legal and insurance-friendly.
 
-### Proof Rights
+### Synthetic Contamination Risk
 
-Legal rights concerning whether a person can be compelled, paid, protected, or prohibited from providing proof.
+Likelihood that generated material, interpolation, reconstruction, or synthetic handling has entered a record.
 
-Tone: civil liberties, courtroom debate.
+Tone: forensic.
 
-### Certified Human Event
+### Provenance Packet
 
-An event verified as involving real human presence and action under protocol.
+Bundle of metadata, custody history, liveness records, consent fields, and handling notes attached to certified media.
 
-Tone: sterile, dehumanizing.
+Nathan obtains one through old credentials and standards loopholes.
 
-### Evidentiary Grief Asset
+Tone: technical/legal.
 
-A grief-related recording, message, voice model, or archive item used in legal or inheritance proceedings.
+## Family And Grief Terms
 
-Tone: intentionally awful, should be used with precision.
+### Grief Archive
 
-## Social And Psychological Terms
+Licensed collection of voice, image, writing, classroom materials, messages, and memory fragments used after death.
 
-### Verification Trauma
+Marian Keene's archive is limited but still produces one sentence too many.
 
-Psychological harm caused by reviewing, producing, undergoing, or being denied authentication.
+Tone: mainstream, intimate, unsettling.
 
-Tone: clinical, advocacy language.
+### Verified Reconstruction
 
-### Proof Debt
+System-generated completion or clarification built from licensed human-origin archive material.
 
-The accumulating burden placed on a person who must keep proving identity, harm, authorship, innocence, grief, or memory.
+Tone: product language.
 
-Tone: social critique.
+### "You Did Enough"
 
-### Witness Degradation
+The generated Marian sentence Nathan accepted and Tessa condemned before secretly listening once herself.
 
-Decline in a witness's legal, cognitive, social, or emotional credibility due to repeated proof demands.
+Tone: comforting, suspect, devastating.
 
-Tone: forensic, cruelly clinical.
+## Private Phrases
 
-### Human Remainder
+### Insufficiently False
 
-The part of human life thought to resist simulation, certification, or commodification.
+Old Nathan-Claire team phrase used when a system answer was technically correct but morally useless. Claire later uses it inside a CommonProof liveness sample as a secret SOS.
 
-Tone: philosophical, religious, literary.
+Tone: dry, intimate, terrifying in context.
 
-### Emotional Authenticity Rating
+### You Know What This Becomes
 
-An app or platform metric claiming to assess whether emotional expression is human, generated, staged, or coerced.
+Claire's resignation warning to Nathan. It returns near the climax as Nathan realizes she was not asking him to predict the future; she was asking him to choose before prediction became excuse.
 
-Tone: product-manager grotesque.
+Tone: remembered wound.
 
-## Corporate Phrases
+### There Is Still A Version Of This That Protects People
 
-### Proof Is Peace
+Nathan's answer to Claire at her resignation. It is technically hopeful and emotionally evasive.
 
-Possible trust-company slogan.
-
-Tone: persuasive and disgusting because it is almost true.
-
-### Doubt Is The Disease. Proof Is The Cure.
-
-Possible antagonist line, campaign slogan, or internal keynote theme.
-
-Tone: authoritarian wellness language.
-
-### We Certify Origin, Not Meaning
-
-Corporate defense used to avoid responsibility for what proof markets do with certification.
-
-Tone: plausible legal evasion.
-
-### Consent Plus Provenance
-
-Industry phrase used to sanitize exploitative proof products.
-
-Tone: morally thin.
-
-## Usage Guidance
-
-Use terms differently by context:
-
-- Courts prefer "certified event capture," "chain of custody," and "human-origin confidence."
-- Platforms prefer "consent integrity," "synthetic contamination risk," and "red-tier media."
-- Underground markets prefer "black tag," "red feed," and "hard proof."
-- Journalists prefer "synthetic denial attack," "witness stack," and "provenance."
-- Religious movements prefer "human remainder," "the unmade," and "refusal."
-- Families use simpler, sadder language: "Was it really him?"
+Tone: decent cowardice.

@@ -1,155 +1,189 @@
 # Scenes
 
-These scenes are designed to reveal the world through action rather than exposition. They should be adapted around the eventual protagonist.
+This scene bank reflects the canon plot and should support drafting without reopening alternate story paths.
 
-## Courtroom Authentication Hearing
+## Opening Talk And Demo
 
-A judge reviews a disputed video in a criminal case. The prosecution says it is human-origin. The defense says it is generated. Experts argue over device provenance, biometric liveness, synthetic contamination, and chain-of-custody gaps.
+Nathan Keene gives a polished talk about humane verification at the Carver Institute for Civic Evidence or a linked CommonProof standards event. He speaks fluently about democratic evidence, privacy, synthetic fog, and proof without coercion.
 
-Human pressure: the person in the video is present in court, watching strangers debate whether their own experience is admissible.
+CommonProof demonstrates liveness attestation. Claire Anik appears in a certified sample and says:
 
-Horror source: the procedure is reasonable and still dehumanizing.
+> Insufficiently false.
 
-## Family Archive Dispute
+No one else reacts. The room applauds. Nathan understands that Claire is alive and signaling distress.
 
-Two siblings argue over a posthumous message from their dead mother. One believes the message is a licensed reconstruction and wants to keep it. The other believes it corrupts the mother's memory. The archive company offers a paid authenticity audit.
+## Claire's Resignation Flashback
 
-Human pressure: comfort versus truth.
+Use sparingly, first as fragments and later as a fuller memory.
 
-Horror source: grief becomes a customer-support workflow.
+Claire tells Nathan:
 
-## Content Moderation Queue
+> You know what this becomes.
 
-A proof analyst reviews flagged uploads. The scene focuses on labels, hesitation, escalation paths, supervisor notes, and the impossibility of neutral classification. We do not need graphic content. The interface tells us enough.
+Nathan answers:
 
-Human pressure: one label may suppress evidence; another may increase market value.
+> There is still a version of this that protects people.
 
-Horror source: clean categories absorbing moral reality.
+The scene should be quiet, professional, and devastating. Claire gives him a moral opening, not a romantic ultimatum. He answers with a plausible sentence that lets him stay.
 
-## Corporate Trust Demo
+## Nathan Calls Tessa
 
-A trust company demonstrates a new Human Origin Protocol product to governments, newsrooms, and insurers. The presentation is elegant, civic-minded, and persuasive.
+Nathan calls Tessa under the pretense of needing help with arbitration language. Their estrangement is immediate: dry irritation, old grief, unfinished argument.
 
-Human pressure: everyone in the room genuinely needs the tool.
+The Marian archive wound enters before either of them is ready. Nathan needs Tessa because she can read bureaucratic violence better than he can.
 
-Horror source: the demo's edge cases reveal that vulnerable people will bear the proof burden.
+## Tessa's Arbitration File
 
-## Election Authenticity Event
+Tessa works through Victor Anik's claim. Claire cannot be recognized as missing or endangered because CommonProof records show her as liveness active.
 
-A candidate holds a verified live event under extreme proof conditions. The event is designed to feel unscripted, humiliating, risky, or self-punishing enough to break through voter numbness.
+The horror is administrative:
 
-Human pressure: voters are not stupid; they are desperate to believe someone.
+- The record proves recent human-origin activity.
+- The system treats activity as sufficient evidence against emergency.
+- No one has to say Claire is safe.
 
-Horror source: authenticity becomes a public ritual of damage.
+## Victor Anik Meeting
 
-## School Liveness Policy Meeting
+Nathan and Tessa meet Victor Anik, Claire's father and a retired public defender. Victor is severe, precise, grieving, and dangerous because he understands procedure.
 
-Parents attend a meeting about new student verification rules after fake messages, synthetic bullying videos, and impersonated guardian calls. Wealthier parents demand privacy-preserving tools. Poorer parents fear surveillance but cannot opt out.
+He recognizes Nathan's name from Claire's past. Nathan realizes he mattered to Claire in ways he cannot define or claim.
 
-Human pressure: children need protection and freedom.
+## Closed CommonProof Demonstration
 
-Horror source: childhood becomes evidentiary.
+Nathan and Tessa attend a closed demo or standards workshop. Claire appears again in refreshed liveness material. Nathan realizes the sample is not old archive footage.
 
-## Griefware Failure
+Tessa asks a question that sounds technical and lands morally:
 
-A father receives a call from his dead son through a licensed grief archive. The voice says something the son never would have said, or perhaps something he did say privately and no one can prove. The father opens an authenticity ticket.
+> Does this record establish agency, or only activity?
 
-Human pressure: he wants the voice to be real and fears that desire.
+Leah Morin intervenes with calm consent language.
 
-Horror source: love is routed through technical support.
+## Leah Blocks Access
 
-## Newsroom Verification Race
+Leah meets Nathan privately or in a controlled CommonProof setting. She tells him Claire's privacy and autonomy are protected by protocol. Releasing more information would violate consent integrity.
 
-A newsroom receives war footage while synthetic counter-versions spread online. Editors must decide whether to publish before full verification. Waiting may allow denial to win. Publishing may endanger witnesses or spread a fake.
+Leah's strongest line should sound reasonable:
 
-Human pressure: truth has a deadline.
+> Nathan, you of all people know why we cannot break this system for a feeling.
 
-Horror source: accuracy and urgency become enemies.
+The scene should make her both obstacle and mirror.
 
-## Verification Haven Intake
+## Provenance Packet Trespass
 
-A witness arrives at an international evidence center. Staff are careful, trauma-informed, and kind. The forms still ask for invasive proof. The witness realizes that being believed requires surrendering control over their story.
+Nathan uses an old standards reviewer credential, deprecated audit portal, or procedural loophole to obtain a provenance packet he should not see.
 
-Human pressure: justice versus self-possession.
+The action is not hacking spectacle. It is process exploitation by someone who knows how systems trust old authority.
 
-Horror source: humane bureaucracy is still bureaucracy.
+The packet includes billing codes, consent witness IDs, transport timing, capture metadata, and phrases that Tessa recognizes from arbitration templates.
 
-## Underground Proof Market
+## Consequence At Carver
 
-The protagonist sees a marketplace or broker pitch that uses the language of creator platforms: tiers, origin confidence, consent notes, jurisdictional risk, premium access, community guidelines.
+The Carver Institute receives a complaint from CommonProof. Nathan is warned, suspended from a standards committee, or pressured to step back.
 
-Human pressure: some participants are there by choice, some by desperation, some by coercion.
+The scene shows real consequences: professional risk, legal exposure, reputational damage, and the loss of Nathan's respectable insulation.
 
-Horror source: familiar platform design applied to human cost.
+## Marian's Archive
 
-## Religious Refusal Gathering
+Nathan opens or nearly opens Marian Keene's archive. The sentence "You did enough" sits there as comfort and violation.
 
-A group meets in person, with devices sealed away. They do not record sermons, faces, songs, or testimony. The protagonist finds the lack of proof both liberating and frightening.
+This scene should be intimate, not technical. Nathan knows the sentence may be generated from her materials. He also knows how badly he wanted it.
 
-Human pressure: can unrecorded truth survive politically?
+## Tessa At Work
 
-Horror source: privacy looks like faith, extremism, or innocence depending on who is watching.
+Tessa drafts arbitration language late at night in Jamaica Plain. Her desk holds claim packets, family objects, and marked-up clauses. She understands that most people meet proof culture through denial letters.
 
-## Dating Verification Check
+This scene lets her intelligence emerge without exposition.
 
-Two people on an early date negotiate liveness settings, synthetic disclosure, message authorship, and archive boundaries. The scene should be tender and awkward, not satirical.
+## Facility Approach
 
-Human pressure: wanting safety without killing romance.
+Nathan and Tessa infer the location of the private recovery and identity-protection facility. The approach should feel almost mundane: roads outside Boston, discreet signage, gardens, security, institutional calm.
 
-Horror source: trust becomes onboarding.
+The facility's language is humane. That is part of the horror.
 
-## Artist's Human-Origin Performance
+## Controlled Contact With Claire
 
-An artist performs live under origin lock. The audience watches proof feeds almost as much as the art. The work succeeds only when something goes wrong.
+Nathan gets close enough to receive a constrained signal from Claire through proof artifacts or a controlled channel. She makes clear that simple extraction would let CommonProof win.
 
-Human pressure: the artist wanted to be seen, not measured.
+The scene should shift Nathan's goal from rescue-as-possession to support-without-control.
 
-Horror source: viewers trust the accident more than the beauty.
+## Claire's Counter-Record
 
-## Insurance Claim Denial
+Claire's agency becomes visible. She has been building a narrow counter-record showing how consent and liveness erase coercion. She does not want a total public exposure. She wants to break the assumption that liveness proves agency.
 
-A family files a claim after a fire, assault, death, or disappearance. The insurer denies coverage due to insufficient human-origin evidence or synthetic contamination risk.
+Nathan realizes she has been acting all along.
 
-Human pressure: bureaucratic disbelief has material consequences.
+## Leah's Strain
 
-Horror source: reality is too poor to prove itself.
+Leah nearly holds the line and nearly breaks. She reveals enough for Nathan and Tessa to understand that CommonProof knows the limitation:
 
-## Congressional Or Parliamentary Hearing
+> Liveness attestation does not establish agency, consent, or freedom of movement.
 
-Trust company executives testify about proof markets, safety taxonomies, and Red List leakage. They condemn exploitation while defending their infrastructure.
+She frames it as a standards problem, but the fear underneath is personal.
 
-Human pressure: lawmakers need the companies they are attacking.
+## Geneva Intake
 
-Horror source: every side is compromised and partly right.
+Nathan, Tessa, and Victor arrive in Geneva. The setting should be calm and procedural: treaty rooms, lake light, translation headsets, security glass, institutional hospitality.
 
-## War Crimes Evidence Review
+The city should feel humane and intimidating at once.
 
-Analysts review authenticated battlefield records. The most reliable capture came from a dead person's device. The team must decide how much of the person's private life becomes evidentiary context.
+## Live-Certified Channel
 
-Human pressure: preserving history versus preserving dignity.
+Claire appears through a live-certified channel. The room treats the channel as a solution. The reader should feel it as the problem.
 
-Horror source: death increases evidentiary value.
+The signal proves origin. It cannot prove freedom.
 
-## Domestic Denial
+## Condition-Verification Demand
 
-A lover denies sending a cruel or intimate message, claiming it was generated. The other person cannot prove otherwise without revealing private verification logs.
+The Geneva panel, CommonProof, and Victor initially need Claire to submit to an invasive condition-verification protocol. Claire refuses.
 
-Human pressure: ambiguity becomes emotional weapon.
+The refusal is the moral center of the novel. She is not withholding truth. She is refusing extraction.
 
-Horror source: synthetic fog enters the bedroom.
+## Nathan's Testimony
 
-## Red List Leak
+Nathan states plainly that liveness attestation was never designed to prove agency or freedom. He helped build the separation between origin and condition.
 
-The protagonist sees the refusal taxonomy not as a dramatic manifesto but as rows, category IDs, severity bands, mitigation tags, and policy notes. It is boring until they understand it is a map of market desire.
+His real climax is not confession. It is supporting Claire's refusal even though it leaves him without absolution.
 
-Human pressure: good intentions become infrastructure for harm.
+## Tessa's Line
 
-Horror source: the spreadsheet is the monster.
+Tessa cuts through the language:
 
-## Final Refusal
+> The record proves activity. It does not prove agency.
 
-Near the end, someone asks the protagonist to authenticate, publish, testify, or release proof that would settle a major dispute but destroy a person. The protagonist refuses the demand for perfect certainty.
+This should land as the sentence the system cannot comfortably absorb.
 
-Human pressure: refusal may let denial survive.
+## Victor Withdraws The Demand
 
-Horror source: the right choice may leave the world less certain.
+Victor stops asking Claire for the proof that would settle everything. As a father, this costs him. As a public defender, he knows why it matters.
+
+The scene should be restrained. His love becomes less possessive in real time.
+
+## Julian Absorbs The Blow
+
+Julian Saye responds with reform language, patience, and controlled sorrow. He does not collapse. He begins adapting.
+
+CommonProof survives. This should feel more unsettling than a total defeat.
+
+## Leah Scapegoated
+
+After Geneva, Leah is suspended or publicly framed as an isolated protocol failure. The institution survives by sacrificing the person who let the limitation surface.
+
+This scene can be brief and cold.
+
+## Trieste Object
+
+Weeks later, Victor receives a blank card tucked around a ticket from a small museum or archive in Trieste, a place Claire once wanted to visit. No signature. No proof chain. No channel.
+
+Victor lets Nathan and Tessa see it. They choose to treat it as enough.
+
+## Sealing Marian's Record
+
+Nathan and Tessa seal Marian's "You did enough" record together. Tessa admits she listened once too.
+
+The scene should bond them through shared weakness, not moral superiority.
+
+## Final Classroom
+
+Nathan and Tessa sit in Marian Keene's old classroom. They remember the same woman differently. No device settles it.
+
+For once, they let the difference stand.
