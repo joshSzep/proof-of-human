@@ -47,6 +47,8 @@ Proof displacement.
 
 He watched the room read the words. He could tell, almost by profession, which phrase each person hated most. The lawyers looked at coerced liveness. The platform people looked at credential laundering. The congressional staffers looked at synthetic denial, because elections had made everyone in government professionally superstitious. The graduate students looked at proof displacement and looked pleased with themselves for doing so.
 
+"The most dangerous failure," Nathan said, "is not always a forged record. Sometimes it is a valid record wrapped around the wrong assumption. A green label around a claim no one has actually proven."
+
 "We are living," Nathan said, "in a period where the existence of a record no longer settles the existence of an event. That is the social fact. Not a moral claim. Not a mood. A fact."
 
 He had given versions of this talk in rooms with worse acoustics, better funding, and higher security. It still surprised him how little he needed to explain. Every person in the room had already learned the lesson privately.
@@ -281,9 +283,9 @@ Nathan's left hand closed around nothing.
 
 The sample advanced. A prompt appeared beside Claire's face.
 
-**Please complete the displayed phrase.**
+**Please repeat the displayed phrase.**
 
-The system read aloud in a neutral voice: "The current record is sufficient for..."
+The system read aloud in a neutral voice: "The current record is sufficient for continued participation."
 
 Claire's eyes moved. Not toward the prompt. Toward the camera. A very small thing changed in her expression. Anyone else would have called it attention. Nathan knew it as refusal.
 
@@ -317,9 +319,19 @@ The retired judge was watching the interface. The congressional staffers were ta
 
 No one heard it.
 
-Of course no one heard it. Why would they? It was an old team phrase from a room that no longer existed, in a company that had renamed the department twice and promoted half its failures into standards. It had begun as Claire's joke during model refusal review, back when a classifier could reject something for the wrong reason and still pass. Insufficiently false, she would say, leaning back from the shared screen. Technically not wrong. Morally useless. Try again.
+Of course no one heard it. Why would they? It was an old team phrase from a room that no longer existed, in a company that had renamed the department twice and promoted half its failures into standards.
+
+It had begun during refusal review, back when a classifier could reject something for the wrong reason and still pass. Claire hated those cases more than clean failures. A clean failure announced itself. A bad acceptance entered the world wearing a green label.
+
+Insufficiently false, she would say, leaning back from the shared screen. Technically not wrong. Morally useless. Try again.
+
+The phrase had never meant this statement is false. It meant the system had accepted the wrong thing as sufficient. It meant look at the assumption underneath the approval.
 
 Nathan had stolen it for a week. Everyone had. That was how private language became team language, and how team language became sediment, and how sediment became something only two people remembered correctly after the company moved on.
+
+Claire had been asked to repeat that the current record was sufficient for continued participation.
+
+She had said, in the only language the room would not recognize, that it was not.
 
 Claire's face remained on the screen.
 
