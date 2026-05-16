@@ -1,0 +1,1221 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Proof of Human | Joshua Szepietowski</title>
+  <meta name="description" content="Launch site for Proof of Human, a novel of synthetic fog, liveness attestation, and the cost of turning truth into evidence.">
+  <style>
+    :root {
+      color-scheme: dark;
+      --paper: #f4efe5;
+      --ink: #f8f4ea;
+      --muted: rgba(248, 244, 234, 0.68);
+      --dim: rgba(248, 244, 234, 0.42);
+      --line: rgba(248, 244, 234, 0.46);
+      --glass: rgba(14, 13, 12, 0.62);
+      --glass-strong: rgba(12, 12, 12, 0.82);
+      --rust: #b77b57;
+      --amber: #e4c174;
+      --cyan: #9ed7d6;
+      --red: #b55f5c;
+      --green: #b4e2bd;
+      --max: 1180px;
+      --mono: "SFMono-Regular", "Consolas", "Liberation Mono", monospace;
+      --serif: Georgia, "Times New Roman", serif;
+      --sans: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      background: #050505;
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      min-width: 320px;
+      overflow-x: hidden;
+      background:
+        radial-gradient(circle at 18% 8%, rgba(158, 215, 214, 0.13), transparent 26rem),
+        radial-gradient(circle at 78% 28%, rgba(183, 123, 87, 0.15), transparent 28rem),
+        linear-gradient(180deg, #050505 0%, #0e0d0c 36%, #17130f 100%);
+      color: var(--ink);
+      font-family: var(--sans);
+      line-height: 1.55;
+    }
+
+    body::before {
+      position: fixed;
+      inset: 0;
+      z-index: -3;
+      content: "";
+      background-image:
+        linear-gradient(rgba(255,255,255,0.035) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(255,255,255,0.025) 1px, transparent 1px);
+      background-size: 56px 56px;
+      mask-image: linear-gradient(180deg, black, transparent 88%);
+    }
+
+    body::after {
+      position: fixed;
+      inset: 0;
+      z-index: -2;
+      pointer-events: none;
+      content: "";
+      background:
+        linear-gradient(rgba(255,255,255,0.035) 50%, rgba(0,0,0,0.03) 50%),
+        radial-gradient(circle at center, transparent 0, rgba(0,0,0,0.5) 72%);
+      background-size: 100% 4px, 100% 100%;
+      mix-blend-mode: screen;
+      opacity: 0.23;
+    }
+
+    a {
+      color: inherit;
+      text-decoration-color: rgba(248, 244, 234, 0.38);
+      text-underline-offset: 0.18em;
+    }
+
+    a:hover {
+      text-decoration-color: var(--cyan);
+    }
+
+    button,
+    .button {
+      display: inline-flex;
+      min-height: 44px;
+      align-items: center;
+      justify-content: center;
+      border: 1px solid rgba(248, 244, 234, 0.46);
+      border-radius: 2px;
+      padding: 0.82rem 1rem;
+      background: rgba(248, 244, 234, 0.08);
+      color: var(--ink);
+      font: 700 0.76rem/1 var(--mono);
+      letter-spacing: 0;
+      text-decoration: none;
+      text-transform: uppercase;
+      cursor: pointer;
+      transition: border-color 160ms ease, background 160ms ease, transform 160ms ease;
+    }
+
+    button:hover,
+    .button:hover {
+      border-color: var(--cyan);
+      background: rgba(158, 215, 214, 0.14);
+      transform: translateY(-1px);
+    }
+
+    .button.primary {
+      border-color: rgba(244, 239, 229, 0.78);
+      background: var(--paper);
+      color: #11100e;
+    }
+
+    .site-shell {
+      position: relative;
+      min-height: 100vh;
+    }
+
+    #sensor-field {
+      position: fixed;
+      inset: 0;
+      z-index: -1;
+      pointer-events: none;
+      opacity: 0.8;
+    }
+
+    .topbar {
+      position: fixed;
+      top: 0;
+      right: 0;
+      left: 0;
+      z-index: 30;
+      border-bottom: 1px solid rgba(248, 244, 234, 0.14);
+      background: rgba(5, 5, 5, 0.58);
+      backdrop-filter: blur(18px);
+    }
+
+    .topbar-inner {
+      display: flex;
+      width: min(var(--max), calc(100% - 32px));
+      min-height: 58px;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+      margin: 0 auto;
+    }
+
+    .brand {
+      font-family: var(--mono);
+      font-size: 0.78rem;
+      color: rgba(248, 244, 234, 0.86);
+      text-transform: uppercase;
+    }
+
+    .nav {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: flex-end;
+      gap: 0.85rem;
+      font: 700 0.68rem/1 var(--mono);
+      color: var(--muted);
+      text-transform: uppercase;
+    }
+
+    .hero {
+      position: relative;
+      display: grid;
+      min-height: 100svh;
+      align-items: center;
+      padding: 94px 0 48px;
+    }
+
+    .hero-inner {
+      display: grid;
+      width: min(var(--max), calc(100% - 32px));
+      grid-template-columns: minmax(260px, 0.92fr) minmax(320px, 1.08fr);
+      align-items: center;
+      gap: clamp(1.7rem, 4vw, 4.5rem);
+      margin: 0 auto;
+    }
+
+    .cover-rig {
+      position: relative;
+      width: min(100%, 430px);
+      justify-self: center;
+    }
+
+    .cover-rig::before,
+    .cover-rig::after {
+      position: absolute;
+      inset: -16px;
+      content: "";
+      border: 1px solid rgba(248, 244, 234, 0.38);
+      clip-path: polygon(0 9%, 9% 0, 91% 0, 100% 9%, 100% 91%, 91% 100%, 9% 100%, 0 91%);
+      pointer-events: none;
+    }
+
+    .cover-rig::after {
+      inset: 9%;
+      border-color: rgba(158, 215, 214, 0.33);
+      animation: scanPulse 3.8s ease-in-out infinite;
+    }
+
+    .cover {
+      display: block;
+      width: 100%;
+      height: auto;
+      box-shadow: 0 30px 90px rgba(0, 0, 0, 0.72);
+      filter: contrast(1.05) saturate(0.9);
+    }
+
+    .scan-sweep {
+      position: absolute;
+      inset: 0;
+      overflow: hidden;
+      pointer-events: none;
+    }
+
+    .scan-sweep::before {
+      position: absolute;
+      top: -18%;
+      right: 0;
+      left: 0;
+      height: 18%;
+      content: "";
+      background: linear-gradient(180deg, transparent, rgba(158, 215, 214, 0.34), transparent);
+      animation: sweep 4.5s linear infinite;
+    }
+
+    .cover-node {
+      position: absolute;
+      width: 7px;
+      height: 7px;
+      border: 1px solid var(--paper);
+      background: rgba(244, 239, 229, 0.4);
+      transform: translate(-50%, -50%);
+    }
+
+    .node-a { top: 25%; left: 21%; }
+    .node-b { top: 37%; left: 46%; }
+    .node-c { top: 56%; left: 28%; }
+    .node-d { top: 68%; left: 58%; }
+
+    .hero-copy {
+      position: relative;
+      padding: clamp(1rem, 3vw, 2rem) 0;
+    }
+
+    .eyebrow {
+      display: inline-flex;
+      gap: 0.5rem;
+      align-items: center;
+      margin: 0 0 1rem;
+      font: 700 0.75rem/1.4 var(--mono);
+      color: var(--cyan);
+      text-transform: uppercase;
+    }
+
+    .status-dot {
+      width: 0.58rem;
+      height: 0.58rem;
+      border-radius: 999px;
+      background: var(--green);
+      box-shadow: 0 0 18px rgba(180, 226, 189, 0.72);
+    }
+
+    h1 {
+      max-width: 760px;
+      margin: 0;
+      font-family: var(--serif);
+      font-size: clamp(4rem, 11vw, 8.7rem);
+      font-weight: 500;
+      line-height: 0.82;
+      letter-spacing: 0;
+    }
+
+    .subtitle {
+      max-width: 680px;
+      margin: 1.4rem 0 0;
+      color: rgba(248, 244, 234, 0.86);
+      font-size: clamp(1.05rem, 1.9vw, 1.35rem);
+    }
+
+    .thesis-line {
+      max-width: 660px;
+      margin: 1.4rem 0 0;
+      color: var(--paper);
+      font-family: var(--mono);
+      font-size: 0.92rem;
+    }
+
+    .cta-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.75rem;
+      margin-top: 1.8rem;
+    }
+
+    .protocol-panel {
+      position: relative;
+      max-width: 650px;
+      margin-top: 2rem;
+      border: 1px solid rgba(248, 244, 234, 0.3);
+      background: linear-gradient(135deg, rgba(248, 244, 234, 0.1), rgba(248, 244, 234, 0.03));
+      clip-path: polygon(0 0, calc(100% - 14px) 0, 100% 14px, 100% 100%, 14px 100%, 0 calc(100% - 14px));
+    }
+
+    .protocol-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1px;
+      background: rgba(248, 244, 234, 0.16);
+    }
+
+    .readout {
+      min-height: 88px;
+      padding: 0.9rem;
+      background: rgba(5, 5, 5, 0.64);
+    }
+
+    .readout .label {
+      display: block;
+      margin-bottom: 0.35rem;
+      color: var(--dim);
+      font: 700 0.66rem/1.3 var(--mono);
+      text-transform: uppercase;
+    }
+
+    .readout .value {
+      display: block;
+      color: var(--paper);
+      font: 700 0.88rem/1.35 var(--mono);
+      text-transform: uppercase;
+    }
+
+    .ticker {
+      overflow: hidden;
+      border-top: 1px solid rgba(248, 244, 234, 0.16);
+      color: rgba(248, 244, 234, 0.64);
+      font: 700 0.68rem/1 var(--mono);
+      text-transform: uppercase;
+      white-space: nowrap;
+    }
+
+    .ticker span {
+      display: inline-block;
+      padding: 0.78rem 0;
+      animation: ticker 24s linear infinite;
+    }
+
+    .band {
+      position: relative;
+      padding: clamp(4rem, 9vw, 7.5rem) 0;
+    }
+
+    .band.alt {
+      border-block: 1px solid rgba(248, 244, 234, 0.11);
+      background: rgba(244, 239, 229, 0.035);
+    }
+
+    .inner {
+      width: min(var(--max), calc(100% - 32px));
+      margin: 0 auto;
+    }
+
+    .split {
+      display: grid;
+      grid-template-columns: minmax(260px, 0.72fr) minmax(320px, 1.28fr);
+      gap: clamp(2rem, 5vw, 5rem);
+      align-items: start;
+    }
+
+    .section-kicker {
+      margin: 0 0 0.7rem;
+      color: var(--cyan);
+      font: 700 0.72rem/1.3 var(--mono);
+      text-transform: uppercase;
+    }
+
+    h2 {
+      margin: 0;
+      font-family: var(--serif);
+      font-size: clamp(2.3rem, 5vw, 4.6rem);
+      font-weight: 500;
+      line-height: 0.95;
+      letter-spacing: 0;
+    }
+
+    .section-copy {
+      max-width: 740px;
+      margin: 0;
+      color: rgba(248, 244, 234, 0.8);
+      font-size: 1.05rem;
+    }
+
+    .evidence-list {
+      display: grid;
+      gap: 1px;
+      margin-top: 1.5rem;
+      background: rgba(248, 244, 234, 0.14);
+    }
+
+    .evidence-row {
+      display: grid;
+      grid-template-columns: 1fr auto;
+      gap: 1rem;
+      align-items: center;
+      padding: 0.92rem 1rem;
+      background: rgba(5, 5, 5, 0.72);
+      font-family: var(--mono);
+      font-size: 0.82rem;
+    }
+
+    .evidence-row strong {
+      color: var(--paper);
+      font-weight: 700;
+      text-transform: uppercase;
+    }
+
+    .evidence-row span {
+      color: var(--muted);
+    }
+
+    .world-fragments {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1px;
+      margin-top: 2.2rem;
+      background: rgba(248, 244, 234, 0.15);
+    }
+
+    .fragment {
+      min-height: 200px;
+      padding: 1.15rem;
+      background: rgba(10, 10, 9, 0.76);
+      color: var(--muted);
+    }
+
+    .fragment b {
+      display: block;
+      margin-bottom: 0.8rem;
+      color: var(--paper);
+      font: 700 0.74rem/1.35 var(--mono);
+      text-transform: uppercase;
+    }
+
+    .verifier {
+      display: grid;
+      grid-template-columns: minmax(280px, 0.95fr) minmax(300px, 1.05fr);
+      gap: clamp(1.5rem, 4vw, 3rem);
+      align-items: center;
+    }
+
+    .camera-stage {
+      position: relative;
+      overflow: hidden;
+      min-height: 360px;
+      border: 1px solid rgba(248, 244, 234, 0.34);
+      background: #070707;
+      clip-path: polygon(0 0, calc(100% - 16px) 0, 100% 16px, 100% 100%, 16px 100%, 0 calc(100% - 16px));
+    }
+
+    video {
+      width: 100%;
+      height: 100%;
+      min-height: 360px;
+      object-fit: cover;
+      filter: grayscale(0.55) contrast(1.18);
+      transform: scaleX(-1);
+    }
+
+    .camera-empty {
+      position: absolute;
+      inset: 0;
+      display: grid;
+      place-items: center;
+      padding: 2rem;
+      color: var(--dim);
+      font: 700 0.72rem/1.7 var(--mono);
+      text-align: center;
+      text-transform: uppercase;
+    }
+
+    .camera-overlay {
+      position: absolute;
+      inset: 0;
+      pointer-events: none;
+      background:
+        linear-gradient(90deg, transparent 49.8%, rgba(248,244,234,0.36) 50%, transparent 50.2%),
+        linear-gradient(transparent 49.8%, rgba(248,244,234,0.23) 50%, transparent 50.2%);
+      opacity: 0.5;
+    }
+
+    .camera-overlay::before {
+      position: absolute;
+      inset: 10%;
+      content: "";
+      border: 1px solid rgba(248, 244, 234, 0.62);
+      clip-path: polygon(0 8%, 8% 0, 92% 0, 100% 8%, 100% 92%, 92% 100%, 8% 100%, 0 92%);
+    }
+
+    .camera-overlay::after {
+      position: absolute;
+      right: 7%;
+      bottom: 8%;
+      left: 7%;
+      height: 2px;
+      content: "";
+      background: linear-gradient(90deg, transparent, var(--cyan), transparent);
+      animation: sweep 2.2s linear infinite;
+    }
+
+    .verify-panel {
+      border: 1px solid rgba(248, 244, 234, 0.22);
+      background: var(--glass);
+      padding: clamp(1rem, 2vw, 1.35rem);
+    }
+
+    .meter {
+      height: 8px;
+      margin: 0.7rem 0 1.2rem;
+      border: 1px solid rgba(248, 244, 234, 0.3);
+      background: rgba(255, 255, 255, 0.04);
+    }
+
+    .meter-fill {
+      width: 7%;
+      height: 100%;
+      background: linear-gradient(90deg, var(--red), var(--amber), var(--green));
+      transition: width 260ms ease;
+    }
+
+    .chapter {
+      max-width: 820px;
+      margin: 0 auto;
+      color: rgba(248, 244, 234, 0.86);
+    }
+
+    .chapter h2 {
+      margin-bottom: 1.6rem;
+      font-size: clamp(2.1rem, 4vw, 4rem);
+    }
+
+    .chapter p {
+      margin: 0 0 1.25rem;
+      font-family: var(--serif);
+      font-size: clamp(1.13rem, 1.6vw, 1.34rem);
+      line-height: 1.72;
+    }
+
+    .chapter strong {
+      color: var(--paper);
+      font-family: var(--mono);
+      font-size: 0.84em;
+      font-weight: 700;
+      text-transform: uppercase;
+    }
+
+    footer {
+      padding: 3rem 0;
+      border-top: 1px solid rgba(248, 244, 234, 0.14);
+      color: var(--muted);
+      font: 700 0.72rem/1.6 var(--mono);
+      text-transform: uppercase;
+    }
+
+    .footer-inner {
+      display: flex;
+      width: min(var(--max), calc(100% - 32px));
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+      margin: 0 auto;
+    }
+
+    .footer-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.9rem;
+      justify-content: flex-end;
+    }
+
+    .hidden-canvas {
+      display: none;
+    }
+
+    @keyframes scanPulse {
+      0%, 100% { opacity: 0.26; transform: scale(1); }
+      50% { opacity: 0.9; transform: scale(1.025); }
+    }
+
+    @keyframes sweep {
+      from { transform: translateY(-20%); }
+      to { transform: translateY(650%); }
+    }
+
+    @keyframes ticker {
+      from { transform: translateX(0); }
+      to { transform: translateX(-50%); }
+    }
+
+    @media (max-width: 900px) {
+      .topbar {
+        position: absolute;
+      }
+
+      .hero-inner,
+      .split,
+      .verifier {
+        grid-template-columns: 1fr;
+      }
+
+      .hero {
+        min-height: auto;
+      }
+
+      .cover-rig {
+        width: min(76vw, 390px);
+      }
+
+      .protocol-grid,
+      .world-fragments {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    @media (max-width: 560px) {
+      .topbar-inner,
+      .footer-inner {
+        align-items: flex-start;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0.8rem 0;
+      }
+
+      .nav,
+      .footer-links {
+        justify-content: flex-start;
+      }
+
+      h1 {
+        font-size: clamp(3.5rem, 20vw, 5.4rem);
+      }
+
+      .evidence-row {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      *,
+      *::before,
+      *::after {
+        animation-duration: 1ms !important;
+        animation-iteration-count: 1 !important;
+        scroll-behavior: auto !important;
+      }
+    }
+  </style>
+</head>
+<body>
+  <canvas id="sensor-field" aria-hidden="true"></canvas>
+  <div class="site-shell">
+    <header class="topbar">
+      <div class="topbar-inner">
+        <a class="brand" href="#top">Proof of Human</a>
+        <nav class="nav" aria-label="Primary">
+          <a href="#verification">Verification</a>
+          <a href="#chapter">Chapter 01</a>
+          <a href="Proof%20of%20Human.pdf" download="Proof of Human.pdf">Full Book</a>
+          <a href="https://github.com/joshSzep/proof-of-human">Source</a>
+          <a href="https://joshszep.com">Joshua Szepietowski</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-inner">
+          <div class="cover-rig" aria-label="Proof of Human book cover">
+            <img class="cover" src="proof-of-human.png" alt="Proof of Human book cover showing a human face under digital verification overlays.">
+            <div class="scan-sweep"></div>
+            <span class="cover-node node-a"></span>
+            <span class="cover-node node-b"></span>
+            <span class="cover-node node-c"></span>
+            <span class="cover-node node-d"></span>
+          </div>
+
+          <div class="hero-copy">
+            <p class="eyebrow"><span class="status-dot"></span> Human-origin confidence: pending reader consent</p>
+            <h1 id="hero-title">Proof of Human</h1>
+            <p class="subtitle">A near-future novel about synthetic fog, liveness attestation, grief archives, and the moment a society confuses verified activity for human agency.</p>
+            <p class="thesis-line">The record proves activity. It does not prove agency.</p>
+            <div class="cta-row">
+              <a class="button primary" href="Proof%20of%20Human.pdf" download="Proof of Human.pdf">Download Full Book</a>
+              <a class="button" href="#chapter">Read Chapter 01</a>
+              <a class="button" href="https://github.com/joshSzep/proof-of-human">Source Repo</a>
+              <a class="button" href="https://joshszep.com">All Books</a>
+            </div>
+
+            <div class="protocol-panel" aria-label="In-world protocol readouts">
+              <div class="protocol-grid">
+                <div class="readout"><span class="label">Data Source</span><span class="value">Central Registry</span></div>
+                <div class="readout"><span class="label">Scan Mode</span><span class="value">Facial Verification</span></div>
+                <div class="readout"><span class="label">Consent State</span><span class="value">Contested</span></div>
+                <div class="readout"><span class="label">Synthetic Fog</span><span class="value">Ambient</span></div>
+                <div class="readout"><span class="label">Origin Status</span><span class="value">Human Confirmed</span></div>
+                <div class="readout"><span class="label">Condition</span><span class="value">Not Established</span></div>
+              </div>
+              <div class="ticker" aria-hidden="true">
+                <span>INSUFFICIENTLY FALSE / LIVENESS ACTIVE / LOCATION DISCLOSURE SHIELDED / CONSENT RECONCILIATION PENDING / CONFIDENCE DEGRADATION SUPPRESSED / </span>
+                <span>INSUFFICIENTLY FALSE / LIVENESS ACTIVE / LOCATION DISCLOSURE SHIELDED / CONSENT RECONCILIATION PENDING / CONFIDENCE DEGRADATION SUPPRESSED / </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="band alt" aria-labelledby="artifact-title">
+        <div class="inner split">
+          <div>
+            <p class="section-kicker">Recovered Launch Artifact</p>
+            <h2 id="artifact-title">Trust without total capture.</h2>
+          </div>
+          <div>
+            <p class="section-copy">In this world, verification does not arrive as spectacle. It arrives as forms, labels, court thresholds, capture policies, insurance tools, grief archive permissions, and calm dashboards that turn unbearable ambiguity into accepted states.</p>
+            <div class="evidence-list" aria-label="Proof system failure modes">
+              <div class="evidence-row"><strong>Synthetic Denial</strong><span>Real events surrounded by plausible alternatives.</span></div>
+              <div class="evidence-row"><strong>Credential Laundering</strong><span>Clean labels wrapped around claims no one has proven.</span></div>
+              <div class="evidence-row"><strong>Coerced Liveness</strong><span>A human can be active and still not be free.</span></div>
+              <div class="evidence-row"><strong>Proof Displacement</strong><span>The label becomes more persuasive than the person.</span></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="inner">
+          <div class="world-fragments" aria-label="Story world fragments">
+            <div class="fragment"><b>CommonProof Protected Source Systems</b> Certifying presence while preserving safety. Origin confidence accepted. Condition field unavailable for public display.</div>
+            <div class="fragment"><b>Carver Institute for Civic Evidence</b> A Cambridge room where disclaimers have become incense burned before professional speech.</div>
+            <div class="fragment"><b>Geneva Authenticity Convention</b> Dignity weighed by procedure. A live-certified channel can still be a cage.</div>
+          </div>
+        </div>
+      </section>
+
+      <section id="verification" class="band" aria-labelledby="verify-title">
+        <div class="inner verifier">
+          <div class="camera-stage">
+            <video id="camera" playsinline muted></video>
+            <div id="camera-empty" class="camera-empty">Optional local camera challenge inactive. No image leaves this page.</div>
+            <div class="camera-overlay" aria-hidden="true"></div>
+          </div>
+
+          <div class="verify-panel">
+            <p class="section-kicker">Protected-Source Liveness Workflow</p>
+            <h2 id="verify-title">Optional human verification.</h2>
+            <p class="section-copy">Start the local webcam challenge to turn your browser into a tiny, fictional CommonProof terminal. It estimates motion and light changes in your camera stream inside this page only; it does not identify you, record you, or upload anything.</p>
+            <div class="evidence-list">
+              <div class="evidence-row"><strong>Status</strong><span id="verify-status">Awaiting explicit consent</span></div>
+              <div class="evidence-row"><strong>Human-Origin Confidence</strong><span id="confidence">0.00%</span></div>
+              <div class="evidence-row"><strong>Condition</strong><span id="condition">Not established</span></div>
+            </div>
+            <div class="meter" aria-label="Human-origin confidence meter"><div id="meter-fill" class="meter-fill"></div></div>
+            <button id="verify-button" type="button">Begin Camera Challenge</button>
+          </div>
+        </div>
+        <canvas id="sample-canvas" class="hidden-canvas" width="80" height="60"></canvas>
+      </section>
+
+      <section id="chapter" class="band alt" aria-labelledby="chapter-title">
+        <article class="chapter">
+          <p class="section-kicker">Act 1 - Synthetic Fog / Chapter 01 - Insufficiently False</p>
+          <h2>Chapter 01 - Insufficiently False</h2>
+<p>Nathan Keene had learned to begin with the disclaimer.</p>
+<p>Not because it softened anyone. It did not. By the third year of the trust collapse, disclaimers had become a kind of incense burned before professional speech: cleansing, expected, and largely decorative. But the people who came to events at the Carver Institute for Civic Evidence still wanted to hear one. They wanted to know, before Nathan said anything about verification, that he understood what could be lost to it.</p>
+<p>So he stood at the lectern in Harkness Hall, under the old plaster medallion the university had preserved through three renovations and one donor scandal, and said, &quot;A society cannot authenticate its way back into love.&quot;</p>
+<p>The room settled.</p>
+<p>It was a good room for settling. Narrow windows looked out over a Cambridge afternoon that had gone the color of tin. The chairs were newer than the walls and more expensive than they looked. On the aisle seats, people had draped coats in the careful way of professionals who knew they might be photographed. Lawyers. Standards officers. Two congressional staffers. A retired judge from the Massachusetts Evidence Court. Four graduate students from the Institute&#x27;s doctoral track in public epistemics, all with identical expressions of advanced concern. A man from a philanthropic trust whose name Nathan could never remember because it sounded like a skin cream. Three people from CommonProof, including one product director he recognized and one woman whose badge listed her role as Senior Narrative Risk Counsel.</p>
+<p>That was new. Or not new, exactly. Newly honest.</p>
+<p>Behind Nathan, the title slide glowed on the wall:</p>
+<p><strong>HUMAN-ORIGIN SYSTEMS AND DEMOCRATIC EVIDENCE</strong></p>
+<p>Under it, in smaller text:</p>
+<p><strong>N. Keene, Carver Institute for Civic Evidence</strong></p>
+<p>He had argued against the subtitle. The conference office had added it anyway:</p>
+<p><strong>After Synthetic Fog: Trust Without Total Capture</strong></p>
+<p>It was not wrong. That was the trouble with most bad language now. It was close enough to the truth to defend itself.</p>
+<p>Nathan let the disclaimer sit for one more second. He knew the value of silence when used in moderation. Too much and the audience heard performance. Too little and they heard anxiety.</p>
+<p>&quot;Verification is not trust,&quot; he said. &quot;It can support trust. It can preserve the conditions under which trust has a chance to exist. It can protect defendants, voters, patients, witnesses, families, and the dead from certain kinds of fraud. But it is not the thing itself. It cannot be. Trust always contains risk.&quot;</p>
+<p>A few heads moved. Not nodding exactly. Filing.</p>
+<p>He clicked to the next slide.</p>
+<p><strong>KNOWN FAILURE MODES</strong></p>
+<p>There were six boxes, each with a short phrase:</p>
+<p>Synthetic denial. False attribution. Archive contamination. Credential laundering. Coerced liveness. Proof displacement.</p>
+<p>He watched the room read the words. He could tell, almost by profession, which phrase each person hated most. The lawyers looked at coerced liveness. The platform people looked at credential laundering. The congressional staffers looked at synthetic denial, because elections had made everyone in government professionally superstitious. The graduate students looked at proof displacement and looked pleased with themselves for doing so.</p>
+<p>&quot;The most dangerous failure,&quot; Nathan said, &quot;is not always a forged record. Sometimes it is a valid record wrapped around the wrong assumption. A green label around a claim no one has actually proven.&quot;</p>
+<p>&quot;We are living,&quot; Nathan said, &quot;in a period where the existence of a record no longer settles the existence of an event. That is the social fact. Not a moral claim. Not a mood. A fact.&quot;</p>
+<p>He had given versions of this talk in rooms with worse acoustics, better funding, and higher security. It still surprised him how little he needed to explain. Every person in the room had already learned the lesson privately.</p>
+<p>A mayor denying a hotel-room recording everyone knew was real.</p>
+<p>A seventh grader suspended for a video no one could authenticate until after his mother lost her job taking time off to fight it.</p>
+<p>A governor&#x27;s dead husband endorsing a ballot question three years after burial, then the family admitting the voice was licensed but not the message.</p>
+<p>A woman in Dorchester answering a call from her son and learning, eleven minutes later, that he had been asleep in a dorm room in Providence the whole time.</p>
+<p>A murder case lost because the prosecution&#x27;s best footage was true but late. By the time the lab confirmed the camera chain, the defense had seeded twelve plausible alternatives and the jury had stopped believing in video as a category.</p>
+<p>Reality had not ended. Nathan disliked that phrase. Reality had continued with its old brutal confidence. It was shared confidence that had thinned and cracked, like ice under a thaw no one had agreed to call spring.</p>
+<p>&quot;Synthetic fog,&quot; he said, &quot;does not mean nothing is real. It means the real arrives with too much company.&quot;</p>
+<p>That line usually worked. It worked now. A few pens moved. Someone near the back lifted a tablet so that its transcription field could take him down in real time. The red dot beside the lens meant the device was registered with the Institute&#x27;s capture policy. A little green ring meant Carver&#x27;s room system had accepted its origin certificate. A gray triangle meant the device owner&#x27;s consent preferences conflicted with at least one audience member&#x27;s face boundary.</p>
+<p>It was extraordinary, Nathan thought, how quickly the world had become a negotiation between icons.</p>
+<p>He clicked again.</p>
+<p><strong>CASE 4: FAMILY ARCHIVE DISPUTE</strong></p>
+<p>He had almost removed the case that morning.</p>
+<p>It was anonymized, of course. All his cases were anonymized, checked, licensed, and sanded down by Institute counsel until they bore the moral texture of courtroom furniture. Still, he knew too well what the slide meant. He knew the sentence at its center. He had not put that sentence on the slide, but he knew it so completely that its absence felt like a second presentation running behind the first.</p>
+<p>You did enough.</p>
+<p>He did not pause. Pausing would have made the omission visible.</p>
+<p>&quot;In this dispute,&quot; he said, &quot;two siblings disagreed over whether a posthumous educational archive had exceeded the decedent&#x27;s reconstruction permissions. The system did not create a conversational agent. It did not create an ongoing personality service. It generated a limited clarification from licensed materials, under a family access provision.&quot;</p>
+<p>He heard himself say family access provision and disliked himself with a clean, familiar precision.</p>
+<p>&quot;One sibling experienced the output as comfort. The other experienced it as a violation of the decedent&#x27;s stated boundary.&quot;</p>
+<p>He did not look at the slide. He looked at the audience.</p>
+<p>&quot;Both were right about something.&quot;</p>
+<p>That landed differently. He could feel the room lean into it, relieved by the promise of complexity. Professionals loved being told two people were right about something. It meant no one had to act yet.</p>
+<p>He moved on before the thought could become unkind.</p>
+<p>The talk lasted thirty-eight minutes. Nathan had been asked for forty-five, but he preferred to end early enough for questions to feel voluntary. He spoke about privacy-preserving attestations, civic evidence thresholds, the danger of forcing vulnerable people to become legible to institutions that had already failed them. He spoke about the difference between verifying origin and interpreting meaning. He did not use CommonProof&#x27;s name except where the public record required it. He did not mention that he had spent eleven years there, or that the architecture under half the room&#x27;s assumptions had once moved through his hands as if through a clean machine.</p>
+<p>During questions, the retired judge asked whether standards should be stricter in criminal cases than in civil disputes.</p>
+<p>&quot;Yes,&quot; Nathan said. &quot;And no.&quot;</p>
+<p>The room gave its small, trained laugh.</p>
+<p>&quot;Sorry,&quot; he said. &quot;I realize that is the least satisfying possible answer. But the distinction matters. A stricter standard can protect a defendant from fabricated evidence. It can also make real harm impossible to prove for anyone without access to certified capture. The question is not whether higher thresholds are better. The question is who can afford to meet them.&quot;</p>
+<p>The judge nodded once, not pleased, not displeased. Retired judges had made an art of moving their heads as if confirming the existence of weather.</p>
+<p>A graduate student asked whether human-origin labels might inadvertently increase demand for extreme authenticity signals.</p>
+<p>That question had been appearing more often. It had moved from fringe worry to respectable anxiety with the speed of all things that should have been obvious earlier.</p>
+<p>Nathan said, &quot;Yes. Any label can become a market signal. That does not mean we should abandon labels. It means we should stop pretending labels are neutral once they enter an economy.&quot;</p>
+<p>He took another question about elections. Another about admissibility. A CommonProof product director asked a careful question that was not a question at all, but a correction disguised as partnership. Nathan answered carefully back. The Senior Narrative Risk Counsel wrote nothing down.</p>
+<p>Then the moderator returned to the lectern, thanked him with professional warmth, and announced the afternoon&#x27;s applied demonstration.</p>
+<p>&quot;We are fortunate,&quot; she said, &quot;to have CommonProof joining us for a limited preview of their protected-source liveness workflow, scheduled for broader standards review later this year. This session is certified for room participants only. Please respect the capture boundary displayed on your devices.&quot;</p>
+<p>Every screen in the room blinked.</p>
+<p>Nathan&#x27;s tablet showed:</p>
+<p><strong>DEMONSTRATION BOUNDARY ACTIVE</strong></p>
+<p><strong>External recording prohibited.</strong></p>
+<p><strong>Transcript available to authorized attendees after consent reconciliation.</strong></p>
+<p><strong>Human-origin confidence: room composite pending.</strong></p>
+<p>Across the aisle, someone muttered, &quot;Consent reconciliation,&quot; with the particular contempt of a person who had helped invent the term.</p>
+<p>Nathan placed his tablet face down.</p>
+<p>The lights dimmed.</p>
+<p>A young CommonProof representative came up from the front row. She was perhaps thirty, with a calm face and a suit that managed not to look like a suit. Her badge identified her as Maya Relles, Product Lead, Protected Source Systems. Nathan did not know her. That was happening more often. CommonProof had become a place he knew intimately in the way one knew a childhood house after strangers had renovated it: the load-bearing walls remained where his body expected them, but all the handles had changed.</p>
+<p>&quot;Thank you, Dr. Keene,&quot; Maya said.</p>
+<p>Nathan had asked them not to call him doctor at events. No one listened. A doctorate was a credential people trusted more than a boundary.</p>
+<p>&quot;I especially appreciate your distinction between verification and trust. At CommonProof, our position is that trust cannot be automated, but the conditions for trust can be strengthened.&quot;</p>
+<p>That was Julian. Not the voice, but the sentence. Julian Saye had a way of placing ethical discomfort inside a structure so balanced that by the time you noticed the cost, you were already grateful for the architecture.</p>
+<p>Maya smiled at the room.</p>
+<p>&quot;Today we will be demonstrating a protected-source workflow designed for high-risk testimony, remote humanitarian review, and emergency civil proceedings where a source&#x27;s physical exposure may create unacceptable risk.&quot;</p>
+<p>The screen behind her changed.</p>
+<p><strong>COMMONPROOF PROTECTED SOURCE SYSTEMS</strong></p>
+<p><strong>Liveness Attestation Without Location Disclosure</strong></p>
+<p>Below the title, a line appeared in smaller type:</p>
+<p><strong>Certifying presence while preserving safety.</strong></p>
+<p>Nathan could feel, against his will, the elegance of it. The need was real. Witnesses died because they could prove things. Dissidents vanished because they had been seen recording. Domestic violence survivors lost custody disputes because the only evidence they had came from devices their abusers controlled. War crimes teams begged for ways to verify testimony without mapping a source&#x27;s room, city, or country.</p>
+<p>This was the cruelty of CommonProof&#x27;s best work: the problem always existed.</p>
+<p>Maya gestured, and the display shifted into an interface mockup. No neon, no drama. White background. Graphite text. Blue for accepted states, amber for pending limitations, red only where a court would require explicit warning.</p>
+<p><strong>Protected Party: Sample A</strong></p>
+<p><strong>Origin Status: Human-confirmed</strong></p>
+<p><strong>Liveness State: Active</strong></p>
+<p><strong>Location Disclosure: Shielded</strong></p>
+<p><strong>Consent State: Valid</strong></p>
+<p><strong>Synthetic Contamination Risk: Low</strong></p>
+<p>&quot;For obvious reasons,&quot; Maya said, &quot;today&#x27;s subjects are either synthetic stand-ins or fully licensed demonstration participants.&quot;</p>
+<p>Nathan sat in the second row, hands folded, and listened to the phrase fully licensed demonstration participants travel through the room without snagging on anyone.</p>
+<p>The first sample was a disaster relief physician in a blurred room, confirming receipt of supplies without exposing a field clinic. Human-origin confidence: 99.2. Liveness state: active. Consent state: valid within displayed tolerances.</p>
+<p>The physician said, &quot;I confirm the shipment arrived at 1400 local time.&quot;</p>
+<p>A green ring formed around the video. Maya explained the difference between voiceprint continuity and behavioral liveness. Nathan could have given the explanation himself. Better, probably. He noticed the small compromises in the interface, the places where a product team had forced a standards category to become visible in under three seconds. He noticed the absence of any condition field.</p>
+<p>Not the absence exactly. The hiding.</p>
+<p>The second sample was a municipal election worker demonstrating remote oath capture. The third was a teacher displaced by flooding, confirming continuity of a credentialed classroom archive. The fourth was a protected witness in a civil fraud case. All polished. All useful. All plausible.</p>
+<p>Nathan began to relax in the narrow way a person relaxes when his dread is not confirmed quickly enough. Perhaps he had misunderstood the preview. Perhaps CommonProof had invited the Institute because the workflow was harmless. Perhaps the phrase protected-source liveness had become so common that his body was remembering dangers the room did not contain.</p>
+<p>Then Maya said, &quot;For the final sample, we&#x27;ll show a consent-preserving recovery scenario.&quot;</p>
+<p>Nathan looked up.</p>
+<p>The display shifted.</p>
+<p><strong>Protected Party: Sample E</strong></p>
+<p><strong>Use Case: Identity Stabilization / Recovery Pathway</strong></p>
+<p><strong>Origin Status: Human-confirmed</strong></p>
+<p><strong>Liveness State: Active</strong></p>
+<p><strong>Location Disclosure: Shielded</strong></p>
+<p><strong>Consent State: Valid</strong></p>
+<p><strong>Synthetic Contamination Risk: Low</strong></p>
+<p>For half a second, the face on the screen was only a face.</p>
+<p>Nathan saw a woman seated in a room arranged to look temporary and soothing. Soft gray chair. Pale wall. A plant too healthy to be personal. No visible windows. The camera angle was fixed slightly above the eyeline, which made the subject appear attentive even at rest. Her hair was shorter than he remembered. Darker maybe, though lighting did that. The bones of the face were thinner. The mouth was the same.</p>
+<p>His mind did what it had been trained to do.</p>
+<p>Archive.</p>
+<p>No.</p>
+<p>Reconstruction.</p>
+<p>No, not with that micro-delay in the blink.</p>
+<p>Licensed likeness.</p>
+<p>Possible.</p>
+<p>Deep composite.</p>
+<p>Not if the origin layer was live, but the origin layer was a demo label, and demo labels could be staged.</p>
+<p>Coincidence.</p>
+<p>Cruel, but possible. There were only so many faces in the world. Human recognition was a superstition with excellent marketing.</p>
+<p>The woman on the screen looked toward someone off-camera, then back.</p>
+<p>The interface drew a green ring.</p>
+<p><strong>Liveness challenge accepted.</strong></p>
+<p>Maya&#x27;s voice continued, still smooth, still useful.</p>
+<p>&quot;In recovery scenarios, the protected party may need to establish human-origin continuity without exposing location, care status, or private medical condition. The system permits a limited attestive exchange while preserving shielded context.&quot;</p>
+<p>Nathan heard none of the last four words. Or he heard them as sound, unchosen.</p>
+<p>The woman on the screen said, &quot;I understand the consent boundary displayed.&quot;</p>
+<p>The room made no sound.</p>
+<p>Nathan knew that voice.</p>
+<p>He knew it before memory supplied a name. That was the body&#x27;s insult. It did not wait for proof. It recognized and left the mind to complete the paperwork.</p>
+<p>Claire Anik.</p>
+<p>Not Claire as he had last seen her, standing in the CommonProof west stairwell with her badge already disabled and her coat over one arm. Not Claire from standards photographs, unsmiling under bad conference lights. Not Claire from the few public comments he had watched later and pretended he had found by accident. This Claire was thinner, composed, present under constraints he could feel without naming. Her face was not pleading. That was worse. Pleading would have given him a category.</p>
+<p>She looked well enough for a system.</p>
+<p>The interface displayed:</p>
+<p><strong>Affective stress markers: within expected range</strong></p>
+<p>Nathan felt a heat rise behind his eyes so quickly that, for one absurd second, he thought the room had changed temperature.</p>
+<p>&quot;This participant,&quot; Maya said, &quot;has authorized limited use for demonstration of continuity-preserving recovery attestations.&quot;</p>
+<p>Participant.</p>
+<p>Nathan&#x27;s left hand closed around nothing.</p>
+<p>The sample advanced. A prompt appeared beside Claire&#x27;s face.</p>
+<p><strong>Please repeat the displayed phrase.</strong></p>
+<p>The system read aloud in a neutral voice: &quot;The current record is sufficient for continued participation.&quot;</p>
+<p>Claire&#x27;s eyes moved. Not toward the prompt. Toward the camera. A very small thing changed in her expression. Anyone else would have called it attention. Nathan knew it as refusal.</p>
+<p>She said, &quot;Insufficiently false.&quot;</p>
+<p>The room remained still.</p>
+<p>On the screen, the interface paused.</p>
+<p>For a fraction of a second, an amber bracket appeared around the transcript line.</p>
+<p><strong>Semantic variance detected</strong></p>
+<p>Then it resolved.</p>
+<p><strong>Response accepted</strong></p>
+<p><strong>Behavioral liveness confirmed</strong></p>
+<p>Maya gave a small, appreciative nod toward the screen, as if the system had performed well under a minor irregularity.</p>
+<p>&quot;You can see here,&quot; she said, &quot;that the workflow tolerates non-matching semantic content where behavioral continuity and consent state remain stable. This is important for protected parties who may be under cognitive load, translation stress, or trauma-related variance.&quot;</p>
+<p>Trauma-related variance.</p>
+<p>Nathan looked around the room.</p>
+<p>No one had moved.</p>
+<p>The retired judge was watching the interface. The congressional staffers were taking notes. One of the graduate students had her head tilted slightly, perhaps admiring the amber-to-green transition. The CommonProof product director looked pleased. Senior Narrative Risk Counsel watched Maya, not the screen.</p>
+<p>No one heard it.</p>
+<p>Of course no one heard it. Why would they? It was an old team phrase from a room that no longer existed, in a company that had renamed the department twice and promoted half its failures into standards.</p>
+<p>It had begun during refusal review, back when a classifier could reject something for the wrong reason and still pass. Claire hated those cases more than clean failures. A clean failure announced itself. A bad acceptance entered the world wearing a green label.</p>
+<p>Insufficiently false, she would say, leaning back from the shared screen. Technically not wrong. Morally useless. Try again.</p>
+<p>The phrase had never meant this statement is false. It meant the system had accepted the wrong thing as sufficient. It meant look at the assumption underneath the approval.</p>
+<p>Nathan had stolen it for a week. Everyone had. That was how private language became team language, and how team language became sediment, and how sediment became something only two people remembered correctly after the company moved on.</p>
+<p>Claire had been asked to repeat that the current record was sufficient for continued participation.</p>
+<p>She had said, in the only language the room would not recognize, that it was not.</p>
+<p>Claire&#x27;s face remained on the screen.</p>
+<p>The system prompted her again.</p>
+<p><strong>Please confirm continued participation.</strong></p>
+<p>She said, &quot;I confirm continued participation.&quot;</p>
+<p>Green ring.</p>
+<p><strong>Consent state stable.</strong></p>
+<p>Nathan wanted to stand. He did not stand. The body had rules older than conscience: do not disrupt the room before you understand the room. Do not reveal information you cannot protect. Do not turn the protected party into a spectacle.</p>
+<p>He hated himself for how quickly the old training arrived.</p>
+<p>Maya continued to explain the shielding protocol.</p>
+<p>&quot;Location remains undisclosed even to downstream verifiers. Courts, insurers, and humanitarian bodies receive attestation of presence, continuity, and consent state without unnecessary exposure of the protected party&#x27;s environment.&quot;</p>
+<p>Nathan stared at the words without reading them.</p>
+<p>Courts.</p>
+<p>Insurers.</p>
+<p>Humanitarian bodies.</p>
+<p>The sample ended. Claire&#x27;s face vanished into a summary panel.</p>
+<p><strong>Sample E complete</strong></p>
+<p><strong>Human-origin confidence: 99.4</strong></p>
+<p><strong>Liveness state: active</strong></p>
+<p><strong>Consent state: valid</strong></p>
+<p><strong>Disclosure limitations: none material to demonstration</strong></p>
+<p>None material.</p>
+<p>Maya asked if there were questions.</p>
+<p>There were many.</p>
+<p>Someone asked whether shielded liveness could satisfy emergency guardianship review. Maya said it depended on jurisdiction and confidence threshold.</p>
+<p>Someone asked how the system handled translation artifacts. Maya said semantic variance was bounded by behavioral continuity and challenge diversity.</p>
+<p>Someone from an insurer asked whether protected-source attestations would be available through the civil claims API in the first release. Maya said CommonProof was working with partners under limited deployment conditions.</p>
+<p>Nathan heard the questions as if from another room.</p>
+<p>He was aware of his own face. That seemed important. He arranged it into attention. He looked down at his tablet and woke the screen, not because he needed it but because people in such rooms were allowed to look shaken if their devices had given them reason.</p>
+<p>His tablet showed the demonstration boundary notice.</p>
+<p><strong>Transcript pending consent reconciliation.</strong></p>
+<p>He opened his notes. His fingers moved without instruction.</p>
+<p>Sample E.</p>
+<p>Claire.</p>
+<p>Not archive?</p>
+<p>Insufficiently false.</p>
+<p>He stopped after the period. The words looked deranged. They looked like the beginning of a claim no system would accept.</p>
+<p>The moderator thanked Maya. The room applauded.</p>
+<p>Nathan applauded too, because not applauding would have been information.</p>
+<p>The sound filled Harkness Hall with polite force. Palms against palms. Approval without commitment. The old plaster medallion watched from the ceiling, having survived everything by being too decorative to accuse.</p>
+<p>Maya stepped down. People turned to one another with the relieved animation that follows a successful demonstration of a necessary technology. They spoke in low, eager voices. Nathan caught pieces.</p>
+<p>&quot;... guardianship implications...&quot;</p>
+<p>&quot;... if the location shield holds...&quot;</p>
+<p>&quot;... trauma variance is going to be a huge adoption issue...&quot;</p>
+<p>&quot;... Saye was right to keep this out of platform release...&quot;</p>
+<p>Nathan remained seated until it became strange to remain seated. Then he stood, gathered nothing, remembered his tablet, gathered that, and moved toward the aisle.</p>
+<p>The product director from CommonProof intercepted him near the third row.</p>
+<p>&quot;Nathan,&quot; he said. &quot;Good to see you. Strong talk.&quot;</p>
+<p>Nathan knew him. Or knew enough. Daniel something. No. David. No, not important.</p>
+<p>&quot;Thank you,&quot; Nathan said.</p>
+<p>&quot;The warning on market signaling was useful. Internally, we are having that conversation constantly.&quot;</p>
+<p>Of course you are, Nathan thought.</p>
+<p>What he said was, &quot;I&#x27;m glad.&quot;</p>
+<p>&quot;Julian still quotes your origin-condition distinction.&quot;</p>
+<p>The room narrowed.</p>
+<p>Nathan looked at him.</p>
+<p>&quot;Does he?&quot;</p>
+<p>&quot;All the time. Usually to improve it, obviously.&quot; The man smiled in a way meant to acknowledge institutional affection. &quot;You know Julian.&quot;</p>
+<p>&quot;I do.&quot;</p>
+<p>&quot;You should come by sometime. See where the work has gone.&quot;</p>
+<p>Nathan could not tell whether it was invitation, warning, or simple networking. In rooms like this, all three often wore the same badge.</p>
+<p>&quot;Maybe,&quot; he said.</p>
+<p>The man nodded, already turning toward someone more useful.</p>
+<p>Nathan reached the side doors. The corridor outside Harkness Hall had been renovated in a style that made old stone look like a deliberate brand choice. A table held coffee, water, small cookies wrapped in compostable film, and a printed notice reminding attendees that external recording was prohibited until consent reconciliation completed.</p>
+<p>He walked past all of it.</p>
+<p>At the end of the corridor, a tall window looked down onto the courtyard. Students crossed the wet brick paths below, heads bent against the weather, laughing at something no one had verified. One of them lifted a phone toward another, and the second student made a face, and the first lowered the phone without protest. A small mercy. An ordinary trust so minor no one had named it yet.</p>
+<p>Nathan put one hand on the windowsill.</p>
+<p>The stone was cold.</p>
+<p>He tried to assemble the categories again.</p>
+<p>Archive. Reconstruction. Licensed demonstration participant. Coincidence. Model artifact. Error. Trap. Message. Claire.</p>
+<p>The categories came apart in his hands.</p>
+<p>On the other side of the glass, Cambridge moved through the late afternoon with its usual expensive indifference. Buses. Bikes. Students. A delivery robot stopped at the curb, confused by a puddle. In the distance, across the river he could not see from here, Boston would be entering its evening argument with traffic and weather. People were sending messages, answering calls, disbelieving evidence, believing fraud, opening grief archives, closing them again. The world was continuing.</p>
+<p>Nathan&#x27;s tablet vibrated once.</p>
+<p>He looked down too quickly.</p>
+<p>Not Claire. Of course not Claire. Nothing in him had believed it would be Claire except the part that had already begun to reorganize the world around the possibility.</p>
+<p>It was the Carver events office.</p>
+<p><strong>Thank you for participating in today&#x27;s session. Demonstration materials will be available after consent reconciliation. Please allow up to 48 hours for transcript release.</strong></p>
+<p>Below that, a CommonProof footer:</p>
+<p><strong>Protected Source Systems</strong></p>
+<p><strong>Certifying presence while preserving safety.</strong></p>
+<p>Nathan read the sentence twice.</p>
+<p>Then a third time.</p>
+<p>He thought of Claire&#x27;s face, the calm room behind her, the green ring accepting her continued participation. He thought of the tiny amber bracket around her words and the way the system had absorbed the variance, corrected the world around it, and moved on.</p>
+<p>Insufficiently false.</p>
+<p>He had spent years helping machines distinguish refusal from permission, human from synthetic, proof from noise. He had believed, or said he believed, that careful systems could make the world less cruel by making certain lies harder to sustain.</p>
+<p>Now a system had shown him Claire Anik alive.</p>
+<p>It had also shown him nothing he could prove.</p>
+<p>Nathan looked back through the corridor toward the room where people were still talking. The applause had ended. The demonstration was over. The record, when released, would say that the session had been successful, that the protected party&#x27;s consent state remained valid, that no material limitation had affected the sample.</p>
+<p>He could already hear the language.</p>
+<p>He had written language like it.</p>
+<p>For one long second, Nathan did not move. Then he turned away from the window and walked toward the exit, carrying the sound of Claire&#x27;s voice with him like evidence no court would admit.</p>
+        </article>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-inner">
+        <div>Proof of Human / Joshua Szepietowski</div>
+        <div class="footer-links">
+          <a href="Proof%20of%20Human.pdf" download="Proof of Human.pdf">Download Book</a>
+          <a href="https://github.com/joshSzep/proof-of-human">Source Repo</a>
+          <a href="https://joshszep.com">All Books</a>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <script>
+    (() => {
+      const canvas = document.getElementById('sensor-field');
+      const ctx = canvas.getContext('2d');
+      const prefersReduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+      let width = 0;
+      let height = 0;
+      let nodes = [];
+      let last = 0;
+
+      function resize() {
+        const ratio = Math.min(window.devicePixelRatio || 1, 2);
+        width = window.innerWidth;
+        height = window.innerHeight;
+        canvas.width = Math.floor(width * ratio);
+        canvas.height = Math.floor(height * ratio);
+        canvas.style.width = width + 'px';
+        canvas.style.height = height + 'px';
+        ctx.setTransform(ratio, 0, 0, ratio, 0, 0);
+        nodes = Array.from({ length: Math.max(26, Math.floor(width / 34)) }, (_, index) => ({
+          x: Math.random() * width,
+          y: Math.random() * height,
+          vx: (Math.random() - 0.5) * 0.14,
+          vy: (Math.random() - 0.5) * 0.14,
+          label: ['HO', 'LIVE', 'CID', 'AGENCY?', '99.97', 'FOG'][index % 6]
+        }));
+      }
+
+      function draw(time) {
+        if (prefersReduced && last) return;
+        last = time;
+        ctx.clearRect(0, 0, width, height);
+        ctx.lineWidth = 1;
+
+        for (const node of nodes) {
+          node.x += node.vx;
+          node.y += node.vy;
+          if (node.x < -30) node.x = width + 30;
+          if (node.x > width + 30) node.x = -30;
+          if (node.y < -30) node.y = height + 30;
+          if (node.y > height + 30) node.y = -30;
+        }
+
+        for (let i = 0; i < nodes.length; i += 1) {
+          for (let j = i + 1; j < nodes.length; j += 1) {
+            const a = nodes[i];
+            const b = nodes[j];
+            const distance = Math.hypot(a.x - b.x, a.y - b.y);
+            if (distance < 150) {
+              const alpha = (1 - distance / 150) * 0.2;
+              ctx.strokeStyle = `rgba(244,239,229,${alpha})`;
+              ctx.beginPath();
+              ctx.moveTo(a.x, a.y);
+              ctx.lineTo(b.x, b.y);
+              ctx.stroke();
+            }
+          }
+        }
+
+        ctx.font = '10px SFMono-Regular, Consolas, monospace';
+        for (const node of nodes) {
+          ctx.fillStyle = 'rgba(244,239,229,0.46)';
+          ctx.fillRect(node.x - 2, node.y - 2, 4, 4);
+          if (Math.random() > 0.985) {
+            ctx.fillStyle = 'rgba(158,215,214,0.7)';
+            ctx.fillText(node.label, node.x + 8, node.y - 8);
+          }
+        }
+
+        requestAnimationFrame(draw);
+      }
+
+      resize();
+      window.addEventListener('resize', resize, { passive: true });
+      requestAnimationFrame(draw);
+    })();
+
+    (() => {
+      const button = document.getElementById('verify-button');
+      const video = document.getElementById('camera');
+      const empty = document.getElementById('camera-empty');
+      const status = document.getElementById('verify-status');
+      const confidence = document.getElementById('confidence');
+      const condition = document.getElementById('condition');
+      const meter = document.getElementById('meter-fill');
+      const sample = document.getElementById('sample-canvas');
+      const ctx = sample.getContext('2d', { willReadFrequently: true });
+      let previous = null;
+      let stream = null;
+      let active = false;
+
+      function setReadout(nextStatus, score, nextCondition) {
+        status.textContent = nextStatus;
+        confidence.textContent = `${score.toFixed(2)}%`;
+        condition.textContent = nextCondition;
+        meter.style.width = `${Math.max(6, Math.min(score, 99.97))}%`;
+      }
+
+      function analyze() {
+        if (!active || video.readyState < 2) {
+          requestAnimationFrame(analyze);
+          return;
+        }
+
+        ctx.drawImage(video, 0, 0, sample.width, sample.height);
+        const frame = ctx.getImageData(0, 0, sample.width, sample.height).data;
+        let diff = 0;
+        let light = 0;
+
+        if (previous) {
+          for (let i = 0; i < frame.length; i += 16) {
+            const current = (frame[i] + frame[i + 1] + frame[i + 2]) / 3;
+            const before = (previous[i] + previous[i + 1] + previous[i + 2]) / 3;
+            diff += Math.abs(current - before);
+            light += current;
+          }
+          diff /= frame.length / 16;
+          light /= frame.length / 16;
+        }
+
+        previous = new Uint8ClampedArray(frame);
+        const movementScore = Math.min(22, diff * 2.35);
+        const lightScore = Math.max(0, Math.min(10, (light - 28) / 9));
+        const pulse = Math.sin(Date.now() / 720) * 1.2;
+        const score = Math.max(12, Math.min(99.97, 63 + movementScore + lightScore + pulse));
+
+        if (score > 82 && diff > 3.6) {
+          setReadout('Liveness challenge accepted', score, 'Origin indicated; agency not established');
+        } else if (score > 70) {
+          setReadout('Seeking micro-motion confirmation', score, 'Origin unresolved; agency not established');
+        } else {
+          setReadout('Capture quality insufficient', score, 'Not established');
+        }
+
+        setTimeout(() => requestAnimationFrame(analyze), 120);
+      }
+
+      async function start() {
+        if (!navigator.mediaDevices || !navigator.mediaDevices.getUserMedia) {
+          setReadout('Camera API unavailable in this browser', 0, 'Not established');
+          return;
+        }
+
+        try {
+          button.disabled = true;
+          button.textContent = 'Requesting Consent';
+          stream = await navigator.mediaDevices.getUserMedia({
+            video: { facingMode: 'user', width: { ideal: 960 }, height: { ideal: 720 } },
+            audio: false
+          });
+          video.srcObject = stream;
+          await video.play();
+          empty.style.display = 'none';
+          active = true;
+          button.textContent = 'Challenge Running';
+          setReadout('Protected-source channel active', 71.4, 'Not established');
+          analyze();
+        } catch (error) {
+          button.disabled = false;
+          button.textContent = 'Begin Camera Challenge';
+          setReadout('Camera consent denied or unavailable', 0, 'Not established');
+        }
+      }
+
+      button.addEventListener('click', start);
+      window.addEventListener('pagehide', () => {
+        if (stream) {
+          for (const track of stream.getTracks()) track.stop();
+        }
+      });
+    })();
+  </script>
+</body>
+</html>
