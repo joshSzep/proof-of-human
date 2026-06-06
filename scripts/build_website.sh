@@ -7,9 +7,10 @@ website_dir="$repo_root/website"
 chapter_file="$repo_root/chapters/Act 1 - Synthetic Fog/Chapter 01 - Insufficiently False.md"
 cover_file="$repo_root/proof-of-human.png"
 book_file="$repo_root/Proof of Human.pdf"
+epub_file="$repo_root/Proof of Human.epub"
 output_file="$website_dir/index.html"
 
-for required_file in "$chapter_file" "$cover_file" "$book_file"; do
+for required_file in "$chapter_file" "$cover_file" "$book_file" "$epub_file"; do
   if [[ ! -f "$required_file" ]]; then
     echo "Missing required file: $required_file" >&2
     exit 1
@@ -19,6 +20,7 @@ done
 mkdir -p "$website_dir"
 cp "$cover_file" "$website_dir/proof-of-human.png"
 cp "$book_file" "$website_dir/Proof of Human.pdf"
+cp "$epub_file" "$website_dir/Proof of Human.epub"
 
 python3 - "$chapter_file" "$output_file" <<'PY'
 from pathlib import Path
@@ -745,7 +747,8 @@ template = r"""<!doctype html>
         <nav class="nav" aria-label="Primary">
           <a href="#verification">Verification</a>
           <a href="#chapter">Chapter 01</a>
-          <a href="Proof%20of%20Human.pdf" download="Proof of Human.pdf">Full Book</a>
+          <a href="Proof%20of%20Human.pdf" download="Proof of Human.pdf">PDF</a>
+          <a href="Proof%20of%20Human.epub" download="Proof of Human.epub">EPUB</a>
           <a href="https://github.com/joshSzep/proof-of-human">Source</a>
           <a href="https://joshszep.com">Joshua Szepietowski</a>
         </nav>
@@ -770,7 +773,8 @@ template = r"""<!doctype html>
             <p class="subtitle">A near-future novel about synthetic fog, liveness attestation, grief archives, and the moment a society confuses verified activity for human agency.</p>
             <p class="thesis-line">The record proves activity. It does not prove agency.</p>
             <div class="cta-row">
-              <a class="button primary" href="Proof%20of%20Human.pdf" download="Proof of Human.pdf">Download Full Book</a>
+              <a class="button primary" href="Proof%20of%20Human.pdf" download="Proof of Human.pdf">Download PDF</a>
+              <a class="button" href="Proof%20of%20Human.epub" download="Proof of Human.epub">Download EPUB</a>
               <a class="button" href="#chapter">Read Chapter 01</a>
               <a class="button" href="https://github.com/joshSzep/proof-of-human">Source Repo</a>
               <a class="button" href="https://joshszep.com">All Books</a>
@@ -856,7 +860,8 @@ template = r"""<!doctype html>
       <div class="footer-inner">
         <div>Proof of Human / Joshua Szepietowski</div>
         <div class="footer-links">
-          <a href="Proof%20of%20Human.pdf" download="Proof of Human.pdf">Download Book</a>
+          <a href="Proof%20of%20Human.pdf" download="Proof of Human.pdf">Download PDF</a>
+          <a href="Proof%20of%20Human.epub" download="Proof of Human.epub">Download EPUB</a>
           <a href="https://github.com/joshSzep/proof-of-human">Source Repo</a>
           <a href="https://joshszep.com">All Books</a>
         </div>

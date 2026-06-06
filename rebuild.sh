@@ -9,16 +9,19 @@ if [[ ! -d "$scripts_dir" ]]; then
   exit 1
 fi
 
-shopt -s nullglob
-build_scripts=("$scripts_dir"/build_*.sh)
-shopt -u nullglob
-
-if (( ${#build_scripts[@]} == 0 )); then
-  echo "No build scripts found in $scripts_dir" >&2
-  exit 1
-fi
+build_scripts=(
+  "$scripts_dir/build_manuscript.sh"
+  "$scripts_dir/build_pdf.sh"
+  "$scripts_dir/build_epub.sh"
+  "$scripts_dir/build_website.sh"
+)
 
 for build_script in "${build_scripts[@]}"; do
+  if [[ ! -f "$build_script" ]]; then
+    echo "Missing build script: $build_script" >&2
+    exit 1
+  fi
+
   echo "Running ${build_script#$repo_root/}"
   "$build_script"
 done
