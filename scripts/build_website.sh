@@ -80,6 +80,8 @@ template = r"""<!doctype html>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Proof of Human | Joshua Szepietowski</title>
   <meta name="description" content="Launch site for Proof of Human, a novel of synthetic fog, liveness attestation, and the cost of turning truth into evidence.">
+  <link rel="icon" type="image/png" href="proof-of-human.png">
+  <link rel="apple-touch-icon" href="proof-of-human.png">
   <style>
     :root {
       color-scheme: dark;
